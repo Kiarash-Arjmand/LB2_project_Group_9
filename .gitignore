@@ -1,0 +1,18 @@
+# Python & Jupyter cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# MMseqs2 temporary files
+tmp/
+*.db
+*.db_*
+
+# Large raw datasets (track metadata, ignore massive dumps if needed)
+data/raw/*
+!data/raw/.gitkeep
+
+# Environment files
+.env
+venv/
+env/
