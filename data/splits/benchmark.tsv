@@ -1,0 +1,1845 @@
+accession	organism	kingdom	protein_length	cleavage_site	label	tm_helix_first_90
+Q5A287	Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast)	Fungi	805		0	False
+O42924	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	272		0	False
+O43482	Homo sapiens (Human)	Metazoa	229		0	False
+P62875	Homo sapiens (Human)	Metazoa	67		0	False
+O43083	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	338		0	False
+P38283	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	698		0	False
+Q9M276	Arabidopsis thaliana (Mouse-ear cress)	Plants	235		0	False
+Q9LUI2	Arabidopsis thaliana (Mouse-ear cress)	Plants	1728		0	False
+Q921N8	Mus musculus (Mouse)	Metazoa	327		0	False
+Q9Y2K1	Homo sapiens (Human)	Metazoa	713		0	False
+Q9CX92	Mus musculus (Mouse)	Metazoa	205		0	True
+P47027	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	764		0	False
+O48847	Arabidopsis thaliana (Mouse-ear cress)	Plants	787		0	False
+Q5H9S7	Homo sapiens (Human)	Metazoa	520		0	False
+Q9NZM4	Homo sapiens (Human)	Metazoa	1560		0	False
+Q9GYU8	Drosophila melanogaster (Fruit fly)	Metazoa	702		0	False
+P63010	Homo sapiens (Human)	Metazoa	937		0	False
+Q9HBH1	Homo sapiens (Human)	Metazoa	243		0	False
+O62644	Bos taurus (Bovine)	Metazoa	151	18.0	1	
+Q9SRY4	Arabidopsis thaliana (Mouse-ear cress)	Plants	453		0	False
+Q9JM73	Mus musculus (Mouse)	Metazoa	504		0	False
+O13702	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	450		0	False
+Q8VIJ5	Rattus norvegicus (Rat)	Metazoa	916		0	False
+P78946	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	126		0	False
+Q86W26	Homo sapiens (Human)	Metazoa	655		0	False
+Q09131	Glycine max (Soybean) (Glycine hispida)	Plants	464	30.0	1	
+Q62598	Rattus norvegicus (Rat)	Metazoa	687	17.0	1	
+Q75RY2	Oryza sativa subsp. japonica (Rice)	Plants	492		0	False
+Q9H2S9	Homo sapiens (Human)	Metazoa	585		0	False
+P62854	Homo sapiens (Human)	Metazoa	115		0	False
+Q06672	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	205		0	False
+Q9FQ09	Arabidopsis thaliana (Mouse-ear cress)	Plants	680		0	False
+P53911	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	425		0	False
+Q8RXN6	Arabidopsis thaliana (Mouse-ear cress)	Plants	485		0	False
+Q6ZMZ3	Homo sapiens (Human)	Metazoa	975		0	False
+A0A2H1A5W4	Candidozyma auris (Yeast) (Candida auris)	Fungi	679		0	False
+O13852	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	249		0	False
+Q9H5J8	Homo sapiens (Human)	Metazoa	278		0	False
+Q6TCH4	Homo sapiens (Human)	Metazoa	344		0	True
+Q9H3F6	Homo sapiens (Human)	Metazoa	313		0	False
+Q9BSJ5	Homo sapiens (Human)	Metazoa	609		0	False
+P40576	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	216		0	True
+P01097	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	85		0	False
+Q8NF64	Homo sapiens (Human)	Metazoa	920		0	False
+Q8TD19	Homo sapiens (Human)	Metazoa	979		0	False
+Q5B833	Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) (Aspergillus nidulans)	Fungi	387	24.0	1	
+Q7Z698	Homo sapiens (Human)	Metazoa	418		0	False
+Q9HA38	Homo sapiens (Human)	Metazoa	289		0	False
+O75161	Homo sapiens (Human)	Metazoa	1426		0	False
+Q9MA15	Arabidopsis thaliana (Mouse-ear cress)	Plants	711		0	False
+Q0WPT7	Arabidopsis thaliana (Mouse-ear cress)	Plants	352		0	False
+P83111	Homo sapiens (Human)	Metazoa	547		0	False
+Q5GH67	Mus musculus (Mouse)	Metazoa	647		0	False
+Q8VYD2	Arabidopsis thaliana (Mouse-ear cress)	Plants	386		0	False
+P48747	Oryctolagus cuniculus (Rabbit)	Metazoa	557	21.0	1	
+Q9BWU0	Homo sapiens (Human)	Metazoa	742		0	False
+Q9LRC8	Scutellaria baicalensis (Baical skullcap)	Plants	527	25.0	1	
+Q96T23	Homo sapiens (Human)	Metazoa	1441		0	False
+Q9QXM1	Mus musculus (Mouse)	Metazoa	983		0	False
+P38827	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1080		0	False
+Q9USG8	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	1188		0	False
+Q9BT78	Homo sapiens (Human)	Metazoa	406		0	False
+O43291	Homo sapiens (Human)	Metazoa	252	27.0	1	
+Q8VZV9	Arabidopsis thaliana (Mouse-ear cress)	Plants	161		0	False
+O75934	Homo sapiens (Human)	Metazoa	225		0	False
+P98149	Drosophila melanogaster (Fruit fly)	Metazoa	667		0	False
+Q9LXF3	Arabidopsis thaliana (Mouse-ear cress)	Plants	187		0	True
+Q9SU56	Arabidopsis thaliana (Mouse-ear cress)	Plants	610		0	True
+P38208	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	133		0	False
+Q8LLD0	Arabidopsis thaliana (Mouse-ear cress)	Plants	1046		0	False
+Q10109	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	688		0	False
+Q5SU73	Mus musculus (Mouse)	Metazoa	570		0	False
+Q9CZL5	Mus musculus (Mouse)	Metazoa	136		0	False
+P82412	Spinacia oleracea (Spinach)	Plants	179		0	False
+P16403	Homo sapiens (Human)	Metazoa	213		0	False
+Q9NQV6	Homo sapiens (Human)	Metazoa	1147		0	False
+P11654	Rattus norvegicus (Rat)	Metazoa	1886	25.0	1	
+Q8IJX8	Plasmodium falciparum (isolate 3D7)	Other	107		0	False
+Q06089	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	161		0	True
+P0DYC3	Talaromyces sp	Fungi	665		0	False
+Q03713	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	159		0	True
+Q8LGI2	Arabidopsis thaliana (Mouse-ear cress)	Plants	454		0	False
+O88917	Rattus norvegicus (Rat)	Metazoa	1515	24.0	1	
+Q9CQT7	Mus musculus (Mouse)	Metazoa	168		0	False
+Q9BRD0	Homo sapiens (Human)	Metazoa	619		0	False
+Q25055	Holotrichia diomphalia (Korean black chafer)	Metazoa	104	20.0	1	
+Q8BX22	Mus musculus (Mouse)	Metazoa	1067		0	False
+Q9UBB6	Homo sapiens (Human)	Metazoa	729		0	False
+P35053	Rattus norvegicus (Rat)	Metazoa	558	23.0	1	
+Q8IXP5	Homo sapiens (Human)	Metazoa	288		0	False
+Q86YV9	Homo sapiens (Human)	Metazoa	775		0	False
+P83565	Rattus norvegicus (Rat)	Metazoa	206		0	False
+Q9FGN8	Arabidopsis thaliana (Mouse-ear cress)	Plants	639		0	False
+Q9BZL1	Homo sapiens (Human)	Metazoa	73		0	False
+Q3U6Q4	Mus musculus (Mouse)	Metazoa	756		0	False
+Q9VX31	Drosophila melanogaster (Fruit fly)	Metazoa	1105		0	False
+P0CU09	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	235		0	False
+Q62141	Mus musculus (Mouse)	Metazoa	1098		0	False
+Q9QWV4	Mus musculus (Mouse)	Metazoa	267		0	False
+P59938	Olivierus martensii (Manchurian scorpion) (Mesobuthus martensii)	Metazoa	57	21.0	1	
+Q01528	Limulus polyphemus (Atlantic horseshoe crab)	Metazoa	172	19.0	1	
+Q9FR37	Arabidopsis thaliana (Mouse-ear cress)	Plants	425		0	False
+F4IV66	Arabidopsis thaliana (Mouse-ear cress)	Plants	1001		0	False
+Q24824	Entamoeba histolytica (strain ATCC 30459 / HM-1:IMSS / ABRM)	Other	96	19.0	1	
+P36130	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	643		0	False
+Q58A45	Homo sapiens (Human)	Metazoa	887		0	False
+Q9LTB0	Arabidopsis thaliana (Mouse-ear cress)	Plants	752		0	False
+P38769	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	630		0	False
+A0A2I8B346	Paralithodes camtschaticus (Red king crab) (Maja camtschatica)	Metazoa	62	23.0	1	
+P02398	Spinacia oleracea (Spinach)	Plants	189		0	False
+Q96DB2	Homo sapiens (Human)	Metazoa	347		0	False
+O14275	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	931		0	False
+P92204	Drosophila melanogaster (Fruit fly)	Metazoa	280		0	False
+Q9C9B9	Arabidopsis thaliana (Mouse-ear cress)	Plants	643		0	False
+Q84ST4	Oryza sativa subsp. japonica (Rice)	Plants	343		0	False
+P16554	Drosophila melanogaster (Fruit fly)	Metazoa	556		0	False
+Q9R0N7	Mus musculus (Mouse)	Metazoa	403		0	True
+Q9SMX1	Arabidopsis thaliana (Mouse-ear cress)	Plants	571		0	False
+Q8LGB6	Arabidopsis thaliana (Mouse-ear cress)	Plants	334		0	False
+O65680	Arabidopsis thaliana (Mouse-ear cress)	Plants	279		0	False
+O43924	Homo sapiens (Human)	Metazoa	150		0	False
+Q9LRH6	Arabidopsis thaliana (Mouse-ear cress)	Plants	309		0	False
+Q9Y266	Homo sapiens (Human)	Metazoa	331		0	False
+Q91YE8	Mus musculus (Mouse)	Metazoa	1087		0	False
+P28804	Spinacia oleracea (Spinach)	Plants	57		0	False
+Q9M9X4	Arabidopsis thaliana (Mouse-ear cress)	Plants	295		0	False
+O15068	Homo sapiens (Human)	Metazoa	1137		0	False
+Q9SJH0	Arabidopsis thaliana (Mouse-ear cress)	Plants	118		0	False
+Q9CX80	Mus musculus (Mouse)	Metazoa	190		0	False
+Q7K4M4	Drosophila melanogaster (Fruit fly)	Metazoa	649		0	False
+Q5ANE3	Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast)	Fungi	170		0	True
+P07663	Drosophila melanogaster (Fruit fly)	Metazoa	1218		0	False
+Q84ZX5	Artemisia vulgaris (Mugwort)	Plants	132	24.0	1	
+A7VN15	Protobothrops flavoviridis (Habu) (Trimeresurus flavoviridis)	Metazoa	79	19.0	1	
+P82411	Spinacia oleracea (Spinach)	Plants	116		0	False
+Q9LK34	Arabidopsis thaliana (Mouse-ear cress)	Plants	483		0	False
+Q08963	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	238		0	False
+P08708	Homo sapiens (Human)	Metazoa	135		0	False
+P0CY15	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	42		0	False
+P51830	Mus musculus (Mouse)	Metazoa	1353		0	False
+P40477	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1460		0	False
+Q06497	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	328		0	True
+Q06554	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1556		0	False
+P28040	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	1405		0	False
+Q96PV7	Homo sapiens (Human)	Metazoa	902		0	False
+A0A3B3IS91	Homo sapiens (Human)	Metazoa	260		0	False
+Q3E7Y6	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	73		0	False
+Q9BSW2	Homo sapiens (Human)	Metazoa	731		0	False
+Q9VQD6	Drosophila melanogaster (Fruit fly)	Metazoa	381		0	False
+Q9P2K2	Homo sapiens (Human)	Metazoa	825	27.0	1	
+Q05024	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	226		0	False
+Q95QK3	Caenorhabditis elegans	Metazoa	1061		0	False
+P13984	Homo sapiens (Human)	Metazoa	249		0	False
+Q99ML9	Mus musculus (Mouse)	Metazoa	989		0	False
+Q5F1R6	Homo sapiens (Human)	Metazoa	531		0	False
+Q12440	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	853		0	False
+P28005	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	173		0	False
+Q1K548	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	Fungi	477		0	False
+P53335	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	271		0	False
+Q9CQJ4	Mus musculus (Mouse)	Metazoa	336		0	False
+O49562	Arabidopsis thaliana (Mouse-ear cress)	Plants	403		0	False
+Q03305	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	412		0	False
+P22572	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	Fungi	453		0	False
+P13639	Homo sapiens (Human)	Metazoa	858		0	False
+Q9FE22	Arabidopsis thaliana (Mouse-ear cress)	Plants	292		0	False
+P13489	Homo sapiens (Human)	Metazoa	461		0	False
+Q96HR8	Homo sapiens (Human)	Metazoa	494		0	False
+P40543	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	189		0	False
+Q9UPN3	Homo sapiens (Human)	Metazoa	7388		0	False
+P08236	Homo sapiens (Human)	Metazoa	651	22.0	1	
+Q9R1X4	Mus musculus (Mouse)	Metazoa	1197		0	False
+Q94FY8	Zea mays (Maize)	Plants	474		0	False
+Q3E705	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	233		0	False
+P37840	Homo sapiens (Human)	Metazoa	140		0	False
+Q6P0N0	Homo sapiens (Human)	Metazoa	1132		0	False
+P38882	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	575		0	False
+Q9VL14	Drosophila melanogaster (Fruit fly)	Metazoa	118		0	False
+P82715	Arabidopsis thaliana (Mouse-ear cress)	Plants	297		0	False
+Q4PSK3	Arabidopsis thaliana (Mouse-ear cress)	Plants	124		0	False
+Q68D91	Homo sapiens (Human)	Metazoa	279		0	False
+Q8K1Z0	Mus musculus (Mouse)	Metazoa	313		0	False
+Q92361	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	264		0	False
+P28803	Spinacia oleracea (Spinach)	Plants	128		0	False
+Q9H3J6	Homo sapiens (Human)	Metazoa	166		0	False
+Q7Z2Z1	Homo sapiens (Human)	Metazoa	1910		0	False
+Q99607	Homo sapiens (Human)	Metazoa	663		0	False
+P48239	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	356		0	False
+Q96B77	Homo sapiens (Human)	Metazoa	213		0	True
+P37398	Oryza sativa subsp. japonica (Rice)	Plants	727		0	False
+Q06339	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	672		0	False
+P33751	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	242		0	False
+Q9UT50	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	485		0	False
+E1BUG7	Gallus gallus (Chicken)	Metazoa	690		0	False
+P53264	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	445		0	False
+Q12106	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	302		0	True
+Q13145	Homo sapiens (Human)	Metazoa	260	20.0	1	
+Q8CI15	Mus musculus (Mouse)	Metazoa	382		0	False
+P50591	Homo sapiens (Human)	Metazoa	281		0	True
+Q57X81	Trypanosoma brucei brucei (strain 927/4 GUTat10.1)	Other	1077		0	False
+Q9NWQ9	Homo sapiens (Human)	Metazoa	140		0	False
+Q06629	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	674		0	False
+Q12150	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	2958		0	True
+O14079	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	624		0	False
+Q9SD11	Arabidopsis thaliana (Mouse-ear cress)	Plants	103		0	False
+Q2Z1W2	Gallus gallus (Chicken)	Metazoa	345		0	False
+Q8L4R0	Arabidopsis thaliana (Mouse-ear cress)	Plants	350		0	False
+P53142	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	486		0	True
+Q9P2P6	Homo sapiens (Human)	Metazoa	4700		0	False
+Q8NG31	Homo sapiens (Human)	Metazoa	2342		0	False
+Q16891	Homo sapiens (Human)	Metazoa	758		0	True
+Q9FPR3	Arabidopsis thaliana (Mouse-ear cress)	Plants	933		0	False
+Q3MIT2	Homo sapiens (Human)	Metazoa	529		0	False
+Q8IVG5	Homo sapiens (Human)	Metazoa	1584		0	False
+Q9Z270	Rattus norvegicus (Rat)	Metazoa	249		0	False
+Q04500	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	899		0	False
+Q8L719	Arabidopsis thaliana (Mouse-ear cress)	Plants	292		0	False
+P62861	Homo sapiens (Human)	Metazoa	133		0	False
+Q93VR9	Arabidopsis thaliana (Mouse-ear cress)	Plants	326		0	False
+Q8VEH6	Mus musculus (Mouse)	Metazoa	393		0	False
+Q94637	Oscheius tipulae (Nematode worm)	Metazoa	1648	15.0	1	
+Q03079	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	207		0	False
+Q9SD80	Arabidopsis thaliana (Mouse-ear cress)	Plants	54		0	True
+P47710	Homo sapiens (Human)	Metazoa	185	15.0	1	
+Q9P7P1	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	147		0	False
+P32500	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	655		0	True
+Q43157	Spinacia oleracea (Spinach)	Plants	285		0	False
+Q91XU0	Mus musculus (Mouse)	Metazoa	660		0	False
+Q9Y4X0	Homo sapiens (Human)	Metazoa	333		0	False
+P38988	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	300		0	True
+Q14773	Homo sapiens (Human)	Metazoa	271	30.0	1	
+P17937	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	249		0	False
+Q9VKJ9	Drosophila melanogaster (Fruit fly)	Metazoa	816		0	False
+P59158	Mus musculus (Mouse)	Metazoa	1002		0	False
+P0C7R1	Arabidopsis thaliana (Mouse-ear cress)	Plants	239		0	False
+P0C2X8	Xenopus laevis (African clawed frog)	Metazoa	363		0	False
+Q9LZA6	Arabidopsis thaliana (Mouse-ear cress)	Plants	825		0	False
+Q63739	Mus musculus (Mouse)	Metazoa	173		0	False
+Q8IRB5	Drosophila melanogaster (Fruit fly)	Metazoa	1465		0	False
+B9TSP7	Arabidopsis thaliana (Mouse-ear cress)	Plants	548		0	False
+Q9BSF0	Homo sapiens (Human)	Metazoa	95		0	False
+B7Z0I7	Drosophila melanogaster (Fruit fly)	Metazoa	351		0	False
+Q19541	Caenorhabditis elegans	Metazoa	169		0	False
+Q3ZBF3	Bos taurus (Bovine)	Metazoa	380		0	False
+P46014	Arabidopsis thaliana (Mouse-ear cress)	Plants	581		0	True
+Q9BXL8	Homo sapiens (Human)	Metazoa	241		0	False
+Q40406	Narcissus pseudonarcissus (Daffodil)	Plants	570		0	False
+Q01080	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	415		0	False
+P87133	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	121		0	False
+O60284	Homo sapiens (Human)	Metazoa	1047		0	False
+Q7S711	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	Fungi	443		0	False
+Q04002	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1493		0	False
+Q04003	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	481		0	False
+Q8BJQ4	Mus musculus (Mouse)	Metazoa	232		0	False
+Q8BVZ5	Mus musculus (Mouse)	Metazoa	266		0	False
+Q03071	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	99		0	False
+P53051	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	589		0	False
+Q5VZV1	Homo sapiens (Human)	Metazoa	264		0	False
+A0A143ZZK9	Plasmodium falciparum (isolate 3D7)	Other	1264		0	False
+P41226	Homo sapiens (Human)	Metazoa	1012		0	False
+O18994	Sus scrofa (Pig)	Metazoa	219	21.0	1	
+P10795	Arabidopsis thaliana (Mouse-ear cress)	Plants	180		0	False
+O18330	Apis mellifera (Honeybee)	Metazoa	432	19.0	1	
+Q9UJX4	Homo sapiens (Human)	Metazoa	755		0	False
+O43071	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	558		0	False
+Q1H537	Arabidopsis thaliana (Mouse-ear cress)	Plants	417		0	False
+Q6U6G5	Rattus norvegicus (Rat)	Metazoa	426		0	False
+Q99942	Homo sapiens (Human)	Metazoa	180		0	False
+Q9LTW4	Arabidopsis thaliana (Mouse-ear cress)	Plants	461		0	False
+Q12107	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	265		0	False
+E9AGH7	Leishmania infantum	Other	365		0	False
+Q9SIU2	Arabidopsis thaliana (Mouse-ear cress)	Plants	848		0	False
+F4I9G2	Arabidopsis thaliana (Mouse-ear cress)	Plants	426		0	False
+Q86U28	Homo sapiens (Human)	Metazoa	154		0	False
+O95218	Homo sapiens (Human)	Metazoa	330		0	False
+O46432	Felis catus (Cat) (Felis silvestris catus)	Metazoa	1007	50.0	1	
+A0A7J6K7I9	Toxoplasma gondii	Other	553	64.0	1	
+Q08422	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	150		0	False
+Q9HAC7	Homo sapiens (Human)	Metazoa	438		0	False
+Q9VSB9	Drosophila melanogaster (Fruit fly)	Metazoa	376		0	True
+P28004	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	379		0	False
+Q05541	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	303		0	False
+Q04922	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	465		0	False
+E9Q5F9	Mus musculus (Mouse)	Metazoa	2537		0	False
+Q86WB7	Homo sapiens (Human)	Metazoa	457		0	True
+C0HKM3	Conus purpurascens (Purple cone)	Metazoa	458	18.0	1	
+F4IUY8	Arabidopsis thaliana (Mouse-ear cress)	Plants	1006		0	False
+Q9BVK8	Homo sapiens (Human)	Metazoa	224		0	True
+Q4V7K4	Xenopus laevis (African clawed frog)	Metazoa	733		0	False
+Q01962	Komagataella pastoris (Yeast) (Pichia pastoris)	Fungi	713		0	False
+Q7SH52	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	Fungi	1168		0	False
+Q3C258	Actinia equina (Beadlet anemone)	Metazoa	70	20.0	1	
+P53886	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1748		0	False
+O60130	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	827		0	False
+Q9Y5A7	Homo sapiens (Human)	Metazoa	615		0	False
+Q6MG82	Rattus norvegicus (Rat)	Metazoa	306		0	False
+A5HAK0	Danio rerio (Zebrafish) (Brachydanio rerio)	Metazoa	149	22.0	1	
+Q01892	Homo sapiens (Human)	Metazoa	262		0	False
+F4K1B4	Arabidopsis thaliana (Mouse-ear cress)	Plants	335		0	False
+Q9VGA4	Drosophila melanogaster (Fruit fly)	Metazoa	1169		0	False
+M1MR49	Rhipicephalus appendiculatus (Brown ear tick)	Metazoa	176	24.0	1	
+Q60838	Mus musculus (Mouse)	Metazoa	736		0	False
+Q92540	Homo sapiens (Human)	Metazoa	1137		0	False
+Q9NP94	Homo sapiens (Human)	Metazoa	309		0	True
+O00841	Dictyostelium discoideum (Social amoeba)	Other	802		0	False
+P32322	Homo sapiens (Human)	Metazoa	319		0	False
+P53136	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	463		0	False
+Q969H6	Homo sapiens (Human)	Metazoa	163		0	False
+Q92466	Homo sapiens (Human)	Metazoa	427		0	False
+P16649	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	713		0	False
+Q07139	Mus musculus (Mouse)	Metazoa	913		0	False
+P58467	Mus musculus (Mouse)	Metazoa	439		0	False
+O14291	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	313		0	False
+Q9V8P9	Drosophila melanogaster (Fruit fly)	Metazoa	1038		0	False
+Q3UZP0	Mus musculus (Mouse)	Metazoa	555		0	False
+P39001	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	836		0	False
+Q86TC9	Homo sapiens (Human)	Metazoa	1320		0	False
+O74946	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	574		0	False
+Q9ERG0	Mus musculus (Mouse)	Metazoa	753		0	False
+Q9SLJ2	Arabidopsis thaliana (Mouse-ear cress)	Plants	98		0	False
+O76460	Drosophila melanogaster (Fruit fly)	Metazoa	784		0	False
+O23212	Arabidopsis thaliana (Mouse-ear cress)	Plants	573		0	False
+Q9BSI4	Homo sapiens (Human)	Metazoa	451		0	False
+P45478	Bos taurus (Bovine)	Metazoa	306	27.0	1	
+C8V329	Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) (Aspergillus nidulans)	Fungi	508		0	True
+Q7Z5Q5	Homo sapiens (Human)	Metazoa	900		0	False
+P00560	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	416		0	False
+O59757	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	1364		0	False
+P99028	Mus musculus (Mouse)	Metazoa	89		0	False
+Q6UW78	Homo sapiens (Human)	Metazoa	93		0	True
+A0PJW6	Homo sapiens (Human)	Metazoa	202		0	True
+Q9UUB6	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	300		0	False
+P11590	Mus musculus (Mouse)	Metazoa	178	16.0	1	
+Q80TN7	Mus musculus (Mouse)	Metazoa	2359		0	False
+Q06211	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1407		0	False
+P01221	Cyprinus carpio (Common carp)	Metazoa	118	23.0	1	
+Q53GS7	Homo sapiens (Human)	Metazoa	698		0	False
+Q96JJ3	Homo sapiens (Human)	Metazoa	720		0	False
+Q9VQ56	Drosophila melanogaster (Fruit fly)	Metazoa	611		0	False
+Q9UTH3	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	775		0	False
+Q04867	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	317		0	False
+Q8BWM0	Mus musculus (Mouse)	Metazoa	384		0	True
+P38913	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	306		0	False
+O08574	Mus musculus (Mouse)	Metazoa	370		0	False
+Q12418	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	502		0	False
+P40161	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	455		0	False
+Q12753	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	694		0	False
+Q04013	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	314		0	True
+P33441	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	392		0	False
+F4I902	Arabidopsis thaliana (Mouse-ear cress)	Plants	420		0	False
+Q9NZZ3	Homo sapiens (Human)	Metazoa	219		0	False
+Q92621	Homo sapiens (Human)	Metazoa	2012		0	False
+Q12382	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	290		0	True
+C9K4X8	Patiria pectinifera (Starfish) (Asterina pectinifera)	Metazoa	116	29.0	1	
+P49957	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	279		0	False
+O13881	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	537		0	False
+O08759	Mus musculus (Mouse)	Metazoa	870		0	False
+Q969P6	Homo sapiens (Human)	Metazoa	601		0	False
+Q504T8	Homo sapiens (Human)	Metazoa	468		0	False
+Q04264	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1277		0	False
+Q12373	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	385		0	False
+Q08991	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	375		0	True
+Q9USU8	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	551		0	False
+P18892	Bos taurus (Bovine)	Metazoa	526	26.0	1	
+Q9QYW0	Rattus norvegicus (Rat)	Metazoa	523		0	False
+Q8WQK0	Cotesia rubecula (Cabbage white butterfly parasite) (Apanteles rubecula)	Metazoa	65	23.0	1	
+P27697	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	501		0	False
+Q384Y1	Trypanosoma brucei brucei (strain 927/4 GUTat10.1)	Other	929		0	False
+Q96DR8	Homo sapiens (Human)	Metazoa	90	20.0	1	
+Q9UU84	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	426		0	False
+Q64378	Mus musculus (Mouse)	Metazoa	456		0	False
+Q96524	Arabidopsis thaliana (Mouse-ear cress)	Plants	612		0	False
+P31376	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	625		0	False
+Q8BMD2	Mus musculus (Mouse)	Metazoa	852		0	False
+Q5EAJ7	Strongylocentrotus purpuratus (Purple sea urchin)	Metazoa	857		0	False
+P36112	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	540		0	True
+Q14154	Homo sapiens (Human)	Metazoa	515		0	False
+Q9FPS9	Arabidopsis thaliana (Mouse-ear cress)	Plants	924		0	False
+Q9NVI7	Homo sapiens (Human)	Metazoa	586		0	False
+Q96B49	Homo sapiens (Human)	Metazoa	74		0	True
+P23506	Mus musculus (Mouse)	Metazoa	227		0	False
+Q9QZM5	Rattus norvegicus (Rat)	Metazoa	476		0	False
+Q9STY4	Arabidopsis thaliana (Mouse-ear cress)	Plants	599		0	False
+P48491	Arabidopsis thaliana (Mouse-ear cress)	Plants	254		0	False
+Q38882	Arabidopsis thaliana (Mouse-ear cress)	Plants	810		0	False
+Q969H8	Homo sapiens (Human)	Metazoa	173	31.0	1	
+Q4PIR3	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	250		0	False
+Q9LFQ9	Arabidopsis thaliana (Mouse-ear cress)	Plants	359		0	False
+Q96BP2	Homo sapiens (Human)	Metazoa	118		0	False
+Q9Y371	Homo sapiens (Human)	Metazoa	365		0	False
+Q80TT2	Mus musculus (Mouse)	Metazoa	1150		0	False
+Q96HF1	Homo sapiens (Human)	Metazoa	295	24.0	1	
+O42636	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	Fungi	278		0	False
+Q8GWP5	Arabidopsis thaliana (Mouse-ear cress)	Plants	426		0	False
+O95707	Homo sapiens (Human)	Metazoa	220		0	False
+Q96E29	Homo sapiens (Human)	Metazoa	417		0	False
+O44476	Caenorhabditis elegans	Metazoa	833		0	False
+P34418	Caenorhabditis elegans	Metazoa	943		0	False
+Q9WUM4	Mus musculus (Mouse)	Metazoa	474		0	False
+Q7XI96	Oryza sativa subsp. japonica (Rice)	Plants	298		0	False
+Q9CAQ2	Arabidopsis thaliana (Mouse-ear cress)	Plants	114		0	False
+Q9FVE6	Arabidopsis thaliana (Mouse-ear cress)	Plants	245		0	False
+P19427	Bos taurus (Bovine)	Metazoa	201	18.0	1	
+P0DOW4	Ramazzottius varieornatus (Water bear) (Tardigrade)	Metazoa	445		0	False
+Q42588	Arabidopsis thaliana (Mouse-ear cress)	Plants	314		0	False
+Q6DRC5	Danio rerio (Zebrafish) (Brachydanio rerio)	Metazoa	1014		0	False
+Q09130	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	446		0	False
+Q96301	Arabidopsis thaliana (Mouse-ear cress)	Plants	914		0	False
+Q6NWY9	Homo sapiens (Human)	Metazoa	871		0	False
+Q01560	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	414		0	False
+Q9ASY8	Arabidopsis thaliana (Mouse-ear cress)	Plants	75		0	True
+Q23973	Drosophila melanogaster (Fruit fly)	Metazoa	217		0	False
+P15806	Mus musculus (Mouse)	Metazoa	651		0	False
+Q5U117	Drosophila melanogaster (Fruit fly)	Metazoa	639		0	False
+Q20709	Caenorhabditis elegans	Metazoa	543		0	False
+Q8GW43	Arabidopsis thaliana (Mouse-ear cress)	Plants	476		0	False
+Q93Y07	Arabidopsis thaliana (Mouse-ear cress)	Plants	622		0	True
+Q6W5P4	Homo sapiens (Human)	Metazoa	371		0	True
+Q94AQ9	Arabidopsis thaliana (Mouse-ear cress)	Plants	260		0	False
+P01364	Aplysia californica (California sea hare)	Metazoa	108	23.0	1	
+Q9M7I7	Arabidopsis thaliana (Mouse-ear cress)	Plants	318		0	False
+P34746	Oreochromis mossambicus (Mozambique tilapia) (Tilapia mossambica)	Metazoa	204	17.0	1	
+Q10331	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	794		0	False
+Q6FI81	Homo sapiens (Human)	Metazoa	312		0	False
+Q9LMJ4	Arabidopsis thaliana (Mouse-ear cress)	Plants	599		0	False
+P32504	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	956		0	False
+Q9ER99	Mus musculus (Mouse)	Metazoa	582		0	False
+Q9BSK0	Homo sapiens (Human)	Metazoa	173		0	True
+O75937	Homo sapiens (Human)	Metazoa	253		0	False
+Q9BYE2	Homo sapiens (Human)	Metazoa	586		0	False
+Q6PJF5	Homo sapiens (Human)	Metazoa	856		0	False
+Q9LFC0	Arabidopsis thaliana (Mouse-ear cress)	Plants	360		0	False
+P40326	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	108		0	False
+Q91YI4	Mus musculus (Mouse)	Metazoa	410		0	False
+Q9SX29	Arabidopsis thaliana (Mouse-ear cress)	Plants	159		0	False
+Q6Q5X2	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	51		0	False
+Q9VR17	Drosophila melanogaster (Fruit fly)	Metazoa	363		0	False
+Q9SKZ1	Arabidopsis thaliana (Mouse-ear cress)	Plants	296		0	False
+P07994	Bos taurus (Bovine)	Metazoa	360	17.0	1	
+P02836	Drosophila melanogaster (Fruit fly)	Metazoa	552		0	False
+Q9DAD6	Mus musculus (Mouse)	Metazoa	137		0	False
+Q9BV90	Homo sapiens (Human)	Metazoa	132		0	False
+Q4G0N4	Homo sapiens (Human)	Metazoa	442		0	False
+Q9VA83	Drosophila melanogaster (Fruit fly)	Metazoa	227	19.0	1	
+Q96EL1	Homo sapiens (Human)	Metazoa	287		0	False
+Q5AMT2	Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast)	Fungi	308	18.0	1	
+Q9ZR03	Arabidopsis thaliana (Mouse-ear cress)	Plants	229		0	True
+A0A0G2K309	Rattus norvegicus (Rat)	Metazoa	301		0	True
+Q9H5V7	Homo sapiens (Human)	Metazoa	419		0	False
+P56286	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	306		0	False
+P50535	Drosophila melanogaster (Fruit fly)	Metazoa	1039		0	False
+Q7TSH3	Mus musculus (Mouse)	Metazoa	1157		0	False
+Q9DBL9	Mus musculus (Mouse)	Metazoa	351		0	False
+Q99ML8	Mus musculus (Mouse)	Metazoa	113	23.0	1	
+O74740	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	797		0	False
+Q9H9A7	Homo sapiens (Human)	Metazoa	625		0	False
+P09597	Spinacia oleracea (Spinach)	Plants	134		0	False
+P02702	Bos taurus (Bovine)	Metazoa	241	19.0	1	
+P55058	Homo sapiens (Human)	Metazoa	493	17.0	1	
+Q8BRE0	Mus musculus (Mouse)	Metazoa	195		0	False
+P78563	Homo sapiens (Human)	Metazoa	741		0	False
+Q9NJ98	Manduca sexta (Tobacco hawkmoth) (Tobacco hornworm)	Metazoa	487	19.0	1	
+Q9BYX4	Homo sapiens (Human)	Metazoa	1025		0	False
+Q13421	Homo sapiens (Human)	Metazoa	622	36.0	1	
+Q9H008	Homo sapiens (Human)	Metazoa	270		0	False
+O59767	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	310		0	False
+Q76KJ5	Mus musculus (Mouse)	Metazoa	399		0	False
+Q03435	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	203		0	False
+P25582	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	841		0	False
+Q9NZI6	Homo sapiens (Human)	Metazoa	479		0	False
+O08795	Mus musculus (Mouse)	Metazoa	521	14.0	1	
+Q6T6C2	Theromyzon tessulatum (Duck leech)	Metazoa	97	22.0	1	
+Q9BWK5	Homo sapiens (Human)	Metazoa	157		0	False
+A2AKK5	Mus musculus (Mouse)	Metazoa	416		0	False
+P47085	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	338		0	False
+P29022	Zea mays (Maize)	Plants	280	25.0	1	
+Q3V0Q6	Mus musculus (Mouse)	Metazoa	470		0	False
+Q5FW52	Mus musculus (Mouse)	Metazoa	967		0	False
+Q9FFF5	Arabidopsis thaliana (Mouse-ear cress)	Plants	241		0	False
+Q6P2H3	Homo sapiens (Human)	Metazoa	762		0	False
+Q12476	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	344		0	False
+Q8TCY5	Homo sapiens (Human)	Metazoa	172		0	True
+Q1HTZ9	Aquarana catesbeiana (American bullfrog) (Rana catesbeiana)	Metazoa	198		0	False
+E9F591	Metarhizium robertsii (strain ARSEF 23 / ATCC MYA-3075) (Metarhizium anisopliae (strain ARSEF 23))	Fungi	445		0	False
+P38828	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	187		0	False
+Q13936	Homo sapiens (Human)	Metazoa	2221		0	False
+Q9M903	Arabidopsis thaliana (Mouse-ear cress)	Plants	479		0	False
+P0CX38	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	236		0	False
+D3ZX63	Rattus norvegicus (Rat)	Metazoa	334		0	False
+P27882	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	189		0	False
+O35658	Mus musculus (Mouse)	Metazoa	278		0	False
+Q9U8X3	Tachypleus tridentatus (Japanese horseshoe crab)	Metazoa	67	23.0	1	
+Q94K85	Arabidopsis thaliana (Mouse-ear cress)	Plants	359	26.0	1	
+P40491	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	155		0	False
+Q8CGS4	Rattus norvegicus (Rat)	Metazoa	223		0	False
+P0CX77	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	362	25.0	1	
+F4JXF1	Arabidopsis thaliana (Mouse-ear cress)	Plants	581		0	False
+Q95P08	Scutigera coleoptrata (House centipede)	Metazoa	656	18.0	1	
+Q7Z7H8	Homo sapiens (Human)	Metazoa	261		0	False
+Q80ZG2	Rattus norvegicus (Rat)	Metazoa	678		0	False
+Q9USP9	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	589		0	False
+P10734	Drosophila melanogaster (Fruit fly)	Metazoa	429		0	False
+O76906	Drosophila melanogaster (Fruit fly)	Metazoa	982		0	False
+Q9ULD2	Homo sapiens (Human)	Metazoa	1270		0	False
+Q8JFQ0	Bombina maxima (Giant fire-bellied toad) (Chinese red belly toad)	Metazoa	96	19.0	1	
+Q9HD23	Homo sapiens (Human)	Metazoa	443		0	False
+Q6T6C1	Theromyzon tessulatum (Duck leech)	Metazoa	107	21.0	1	
+P63002	Mus musculus (Mouse)	Metazoa	197		0	False
+P53188	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	120		0	False
+Q60902	Mus musculus (Mouse)	Metazoa	907		0	False
+Q62806	Rattus norvegicus (Rat)	Metazoa	794		0	False
+Q9SKT1	Arabidopsis thaliana (Mouse-ear cress)	Plants	336		0	False
+Q810M6	Mus musculus (Mouse)	Metazoa	228		0	False
+Q8S1D9	Oryza sativa subsp. japonica (Rice)	Plants	435		0	False
+Q8N140	Homo sapiens (Human)	Metazoa	333		0	False
+Q01064	Homo sapiens (Human)	Metazoa	536		0	False
+Q8N9N2	Homo sapiens (Human)	Metazoa	400		0	False
+Q9V3H8	Drosophila melanogaster (Fruit fly)	Metazoa	133		0	False
+Q07684	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	458		0	False
+Q2TAK8	Homo sapiens (Human)	Metazoa	710		0	False
+O96000	Homo sapiens (Human)	Metazoa	172		0	False
+G5EF48	Caenorhabditis elegans	Metazoa	350		0	True
+W7MAT5	Gibberella moniliformis (strain M3125 / FGSC 7600) (Maize ear and stalk rot fungus) (Fusarium verticillioides)	Fungi	574		0	True
+J9VP29	Cryptococcus neoformans (strain H99 / ATCC 208821 / CBS 10515 / FGSC 9487) (Cryptococcus neoformans var. grubii serotype A)	Fungi	331		0	False
+Q9FFD8	Arabidopsis thaliana (Mouse-ear cress)	Plants	104		0	False
+O95751	Homo sapiens (Human)	Metazoa	146		0	False
+Q9NUQ6	Homo sapiens (Human)	Metazoa	558		0	False
+Q9Y222	Homo sapiens (Human)	Metazoa	760		0	False
+P33399	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	275		0	False
+Q9P7N0	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	392		0	False
+A0A2H1VE33	Spodoptera frugiperda (Fall armyworm)	Metazoa	332		0	False
+Q15078	Homo sapiens (Human)	Metazoa	307		0	False
+Q5BLX8	Rattus norvegicus (Rat)	Metazoa	315		0	False
+Q91876	Xenopus laevis (African clawed frog)	Metazoa	720		0	False
+Q09275	Caenorhabditis elegans	Metazoa	382		0	False
+Q9LPV5	Arabidopsis thaliana (Mouse-ear cress)	Plants	502		0	True
+Q9WTW8	Rattus norvegicus (Rat)	Metazoa	647		0	False
+P50534	Drosophila melanogaster (Fruit fly)	Metazoa	773		0	False
+P97524	Rattus norvegicus (Rat)	Metazoa	620		0	True
+A1X159	Perna viridis (Asian green mussel) (Mytilus viridis)	Metazoa	431	20.0	1	
+Q01804	Homo sapiens (Human)	Metazoa	1114		0	False
+P10355	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	254		0	False
+Q9VPT4	Drosophila melanogaster (Fruit fly)	Metazoa	717		0	False
+Q8C551	Mus musculus (Mouse)	Metazoa	337		0	False
+B8B0E2	Oryza sativa subsp. indica (Rice)	Plants	1246		0	False
+Q12072	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	812		0	False
+Q9SI64	Arabidopsis thaliana (Mouse-ear cress)	Plants	702		0	False
+Q9QZ04	Mus musculus (Mouse)	Metazoa	1284		0	False
+P03069	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	281		0	False
+O95619	Homo sapiens (Human)	Metazoa	227		0	False
+Q9NVV9	Homo sapiens (Human)	Metazoa	213		0	False
+Q9C8H3	Arabidopsis thaliana (Mouse-ear cress)	Plants	776		0	False
+Q9SZR9	Arabidopsis thaliana (Mouse-ear cress)	Plants	638		0	False
+Q2TB10	Homo sapiens (Human)	Metazoa	664		0	False
+Q5T4T6	Homo sapiens (Human)	Metazoa	812		0	False
+O42975	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	972		0	False
+Q9UTA6	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	303		0	False
+O14786	Homo sapiens (Human)	Metazoa	923	21.0	1	
+Q8NK90	Aspergillus kawachii (strain NBRC 4308) (White koji mold) (Aspergillus awamori var. kawachi)	Fungi	628	25.0	1	
+Q86VP6	Homo sapiens (Human)	Metazoa	1230		0	False
+Q9P6S5	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	307		0	False
+Q02983	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	363		0	False
+Q9HDZ6	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	155		0	False
+Q940X9	Arabidopsis thaliana (Mouse-ear cress)	Plants	826		0	False
+Q8GZM7	Arabidopsis thaliana (Mouse-ear cress)	Plants	478		0	False
+Q9C565	Arabidopsis thaliana (Mouse-ear cress)	Plants	373		0	False
+Q6F6B5	Arabidopsis thaliana (Mouse-ear cress)	Plants	741		0	False
+Q8R2Y0	Mus musculus (Mouse)	Metazoa	336		0	True
+Q9SUA1	Arabidopsis thaliana (Mouse-ear cress)	Plants	763		0	False
+Q70CQ3	Homo sapiens (Human)	Metazoa	517		0	True
+P17256	Rattus norvegicus (Rat)	Metazoa	395		0	False
+Q6L5B5	Oryza sativa subsp. japonica (Rice)	Plants	248		0	False
+B8BNY7	Oryza sativa subsp. indica (Rice)	Plants	596		0	False
+Q6Z232	Oryza sativa subsp. japonica (Rice)	Plants	146	42.0	1	
+Q94545	Drosophila melanogaster (Fruit fly)	Metazoa	556		0	False
+Q9UDW3	Homo sapiens (Human)	Metazoa	170		0	False
+F1NSM7	Gallus gallus (Chicken)	Metazoa	743	18.0	1	
+O13859	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	285		0	False
+Q9Y3Y2	Homo sapiens (Human)	Metazoa	248		0	False
+P32802	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	667	22.0	1	
+Q8TBZ3	Homo sapiens (Human)	Metazoa	569		0	False
+Q12493	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	238		0	False
+P0C7T6	Mus musculus (Mouse)	Metazoa	687		0	False
+Q9LSA9	Arabidopsis thaliana (Mouse-ear cress)	Plants	339		0	False
+Q9C757	Arabidopsis thaliana (Mouse-ear cress)	Plants	580		0	True
+P18911	Mus musculus (Mouse)	Metazoa	458		0	False
+Q8N699	Homo sapiens (Human)	Metazoa	235		0	False
+Q5SXA9	Mus musculus (Mouse)	Metazoa	1104		0	False
+Q5TAQ9	Homo sapiens (Human)	Metazoa	597		0	False
+B8ZXI1	Mus musculus (Mouse)	Metazoa	415		0	False
+Q8N635	Homo sapiens (Human)	Metazoa	442		0	False
+Q9H0A8	Homo sapiens (Human)	Metazoa	199		0	False
+P62249	Homo sapiens (Human)	Metazoa	146		0	False
+P19838	Homo sapiens (Human)	Metazoa	968		0	False
+Q96HE9	Homo sapiens (Human)	Metazoa	360		0	False
+Q61510	Mus musculus (Mouse)	Metazoa	634		0	False
+O63075	Chlamydomonas reinhardtii (Chlamydomonas smithii)	Plants	238		0	True
+Q9JL61	Mus musculus (Mouse)	Metazoa	658		0	False
+Q10L01	Oryza sativa subsp. japonica (Rice)	Plants	382		0	True
+G1XJN1	Arthrobotrys oligospora (strain ATCC 24927 / CBS 115.81 / DSM 1491) (Nematode-trapping fungus) (Didymozoophaga oligospora)	Fungi	401		0	True
+Q92765	Homo sapiens (Human)	Metazoa	325	32.0	1	
+P35817	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	686		0	False
+D3ZNV2	Rattus norvegicus (Rat)	Metazoa	288		0	False
+P36160	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	344		0	False
+V6CLJ5	Caenorhabditis elegans	Metazoa	790		0	False
+Q9H3N8	Homo sapiens (Human)	Metazoa	390		0	True
+Q86U90	Homo sapiens (Human)	Metazoa	279		0	False
+Q03468	Homo sapiens (Human)	Metazoa	1493		0	False
+O94818	Homo sapiens (Human)	Metazoa	638		0	False
+Q6Q4H1	Hydra vulgaris (Hydra) (Hydra attenuata)	Metazoa	385		0	False
+Q7L8L6	Homo sapiens (Human)	Metazoa	764		0	False
+Q80VA5	Mus musculus (Mouse)	Metazoa	1289		0	False
+P03999	Homo sapiens (Human)	Metazoa	345		0	True
+P29590	Homo sapiens (Human)	Metazoa	882		0	False
+P53808	Mus musculus (Mouse)	Metazoa	214		0	False
+O13758	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	361		0	False
+Q8IX15	Homo sapiens (Human)	Metazoa	550		0	False
+Q5XIE6	Rattus norvegicus (Rat)	Metazoa	385		0	False
+P15382	Homo sapiens (Human)	Metazoa	129		0	True
+P04275	Homo sapiens (Human)	Metazoa	2813	22.0	1	
+O59746	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	819		0	False
+P28321	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	313		0	False
+Q91X44	Mus musculus (Mouse)	Metazoa	623		0	False
+Q7L5Y1	Homo sapiens (Human)	Metazoa	443		0	False
+Q76CA2	Monoplex parthenopeus (Giant triton) (Monoplex echo)	Metazoa	275	23.0	1	
+O04492	Arabidopsis thaliana (Mouse-ear cress)	Plants	419		0	False
+Q96QD9	Homo sapiens (Human)	Metazoa	318		0	False
+Q99JB6	Mus musculus (Mouse)	Metazoa	429		0	False
+P38418	Arabidopsis thaliana (Mouse-ear cress)	Plants	896		0	False
+P53869	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	86		0	False
+P32626	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	227		0	False
+Q01448	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	625		0	False
+Q8NB91	Homo sapiens (Human)	Metazoa	859		0	False
+Q8R4P5	Mus musculus (Mouse)	Metazoa	757		0	False
+Q07654	Homo sapiens (Human)	Metazoa	80	21.0	1	
+P18684	Protophormia terraenovae (Northern blowfly) (Lucilia terraenovae)	Metazoa	101	18.0	1	
+P47119	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	197		0	False
+P49017	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	307		0	False
+Q9BWX1	Homo sapiens (Human)	Metazoa	381		0	False
+Q9S7E9	Arabidopsis thaliana (Mouse-ear cress)	Plants	481		0	False
+Q7XA78	Arabidopsis thaliana (Mouse-ear cress)	Plants	264		0	False
+O13895	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	377		0	False
+Q8BVE8	Mus musculus (Mouse)	Metazoa	1365		0	False
+Q19614	Caenorhabditis elegans	Metazoa	433		0	False
+Q9Y3C4	Homo sapiens (Human)	Metazoa	175		0	False
+P07255	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	59		0	True
+Q8N183	Homo sapiens (Human)	Metazoa	169		0	False
+Q4KLP8	Xenopus laevis (African clawed frog)	Metazoa	663		0	False
+Q9MYV1	Canis lupus familiaris (Dog) (Canis familiaris)	Metazoa	128	25.0	1	
+Q8K3Y6	Rattus norvegicus (Rat)	Metazoa	776		0	False
+Q08702	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	217		0	False
+Q99LT0	Mus musculus (Mouse)	Metazoa	99		0	False
+Q8NEZ4	Homo sapiens (Human)	Metazoa	4911		0	False
+Q9Z213	Rattus norvegicus (Rat)	Metazoa	738		0	False
+Q9U572	Penaeus monodon (Giant tiger prawn)	Metazoa	1670	14.0	1	
+P81383	Ophiophagus hannah (King cobra) (Naja hannah)	Metazoa	491	20.0	1	
+Q12507	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	346		0	False
+Q9Y5J6	Homo sapiens (Human)	Metazoa	103		0	False
+Q8VYL1	Arabidopsis thaliana (Mouse-ear cress)	Plants	588		0	False
+Q23544	Caenorhabditis elegans	Metazoa	508		0	True
+Q86TG7	Homo sapiens (Human)	Metazoa	708		0	False
+Q12486	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	218		0	False
+Q9UUD1	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	900		0	False
+Q9D6J6	Mus musculus (Mouse)	Metazoa	248		0	False
+Q15477	Homo sapiens (Human)	Metazoa	1246		0	False
+Q9FWR4	Arabidopsis thaliana (Mouse-ear cress)	Plants	213		0	False
+Q9Z206	Mus musculus (Mouse)	Metazoa	595		0	False
+Q6IUP1	Mus musculus (Mouse)	Metazoa	357		0	False
+Q9EQR5	Mus musculus (Mouse)	Metazoa	269		0	True
+Q969F0	Homo sapiens (Human)	Metazoa	183		0	False
+Q08687	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	178		0	False
+P0CS82	Saccharomyces cerevisiae (Baker's yeast)	Fungi	1483		0	False
+Q9VH36	Drosophila melanogaster (Fruit fly)	Metazoa	585		0	False
+Q61136	Mus musculus (Mouse)	Metazoa	1007		0	False
+Q9UT17	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	328		0	False
+Q9LQL0	Arabidopsis thaliana (Mouse-ear cress)	Plants	166		0	False
+P36037	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	715		0	False
+Q6A078	Mus musculus (Mouse)	Metazoa	2472		0	False
+Q24134	Drosophila melanogaster (Fruit fly)	Metazoa	578		0	False
+P40154	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	320		0	False
+Q9H3M7	Homo sapiens (Human)	Metazoa	391		0	False
+Q8GT41	Platanus acerifolia (London plane tree) (Platanus orientalis x Platanus occidentalis)	Plants	179	23.0	1	
+P32480	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	875		0	False
+O43164	Homo sapiens (Human)	Metazoa	708		0	False
+Q5VWG9	Homo sapiens (Human)	Metazoa	929		0	False
+Q9LLC1	Arabidopsis thaliana (Mouse-ear cress)	Plants	255		0	False
+Q9BWW7	Homo sapiens (Human)	Metazoa	348		0	False
+Q84MB5	Arabidopsis thaliana (Mouse-ear cress)	Plants	280		0	True
+P02743	Homo sapiens (Human)	Metazoa	223	19.0	1	
+Q21986	Caenorhabditis elegans	Metazoa	958		0	False
+Q8I948	Acanthoscurria gomesiana (Tarantula spider) (Phormictopus pheopygus)	Metazoa	156	23.0	1	
+Q8NHU0	Homo sapiens (Human)	Metazoa	189		0	False
+P18657	Macaca fascicularis (Crab-eating macaque) (Cynomolgus monkey)	Metazoa	83	26.0	1	
+Q09098	Mus musculus (Mouse)	Metazoa	99	23.0	1	
+Q09260	Caenorhabditis elegans	Metazoa	490		0	False
+Q8NBI3	Homo sapiens (Human)	Metazoa	349	25.0	1	
+Q20224	Caenorhabditis elegans	Metazoa	161	19.0	1	
+P18544	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	423		0	False
+Q94BU8	Arabidopsis thaliana (Mouse-ear cress)	Plants	185		0	False
+P39961	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	794		0	False
+Q9LU68	Arabidopsis thaliana (Mouse-ear cress)	Plants	435		0	False
+P10852	Mus musculus (Mouse)	Metazoa	526		0	True
+Q9NPF0	Homo sapiens (Human)	Metazoa	282	35.0	1	
+P52756	Homo sapiens (Human)	Metazoa	815		0	False
+Q9EQJ4	Rattus norvegicus (Rat)	Metazoa	579		0	False
+Q08119	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	714		0	False
+Q8IVI9	Homo sapiens (Human)	Metazoa	506		0	False
+P32472	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	135	17.0	1	
+P33418	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1100		0	False
+O77389	Plasmodium falciparum (isolate 3D7)	Other	309		0	True
+Q63472	Rattus norvegicus (Rat)	Metazoa	962		0	False
+Q07812	Homo sapiens (Human)	Metazoa	192		0	False
+P08074	Mus musculus (Mouse)	Metazoa	244		0	False
+O00411	Homo sapiens (Human)	Metazoa	1230		0	False
+Q9BYD2	Homo sapiens (Human)	Metazoa	267		0	False
+Q84V03	Arabidopsis thaliana (Mouse-ear cress)	Plants	778		0	False
+Q9P0R6	Homo sapiens (Human)	Metazoa	139		0	False
+O35484	Mus musculus (Mouse)	Metazoa	448		0	False
+Q8NHU3	Homo sapiens (Human)	Metazoa	365		0	True
+Q9GZS3	Homo sapiens (Human)	Metazoa	305		0	False
+P0DQC1	Scolopendra dehaani (Thai centipede) (Scolopendra subspinipes dehaani)	Metazoa	92	20.0	1	
+Q8N4L1	Homo sapiens (Human)	Metazoa	468		0	True
+Q9UNN4	Homo sapiens (Human)	Metazoa	478		0	False
+P34234	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	306		0	False
+Q9ZW33	Arabidopsis thaliana (Mouse-ear cress)	Plants	83		0	False
+B1P0S1	Pseudopleuronectes americanus (Winter flounder) (Pleuronectes americanus)	Metazoa	218	23.0	1	
+P07257	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	368		0	False
+Q9LT47	Arabidopsis thaliana (Mouse-ear cress)	Plants	369		0	False
+Q7SAJ1	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	Fungi	236		0	False
+Q8NEY8	Homo sapiens (Human)	Metazoa	458		0	False
+Q16635	Homo sapiens (Human)	Metazoa	262		0	False
+Q07243	Mus musculus (Mouse)	Metazoa	675		0	False
+Q9UNA4	Homo sapiens (Human)	Metazoa	740		0	False
+Q96I76	Homo sapiens (Human)	Metazoa	525		0	False
+P98200	Mus musculus (Mouse)	Metazoa	1148		0	True
+P38557	Arabidopsis thaliana (Mouse-ear cress)	Plants	474		0	False
+Q15652	Homo sapiens (Human)	Metazoa	2540		0	False
+P56201	Oryctolagus cuniculus (Rabbit)	Metazoa	797	24.0	1	
+P97411	Mus musculus (Mouse)	Metazoa	478		0	False
+P34766	Caenorhabditis elegans	Metazoa	270		0	False
+Q96CM4	Homo sapiens (Human)	Metazoa	212		0	False
+Q8VC65	Mus musculus (Mouse)	Metazoa	262		0	True
+P43122	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	407		0	False
+Q9NQ31	Homo sapiens (Human)	Metazoa	210		0	False
+P61221	Homo sapiens (Human)	Metazoa	599		0	False
+Q9M9U5	Arabidopsis thaliana (Mouse-ear cress)	Plants	382		0	False
+Q9D2V8	Mus musculus (Mouse)	Metazoa	456		0	True
+Q9I9B9	Torpedo marmorata (Marbled electric ray)	Metazoa	646		0	True
+P97481	Mus musculus (Mouse)	Metazoa	874		0	False
+G4V4F9	Cupiennius salei (American wandering spider)	Metazoa	97	19.0	1	
+Q08235	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	291		0	False
+Q7Z614	Homo sapiens (Human)	Metazoa	316		0	False
+P07247	Drosophila melanogaster (Fruit fly)	Metazoa	502		0	False
+C8VP82	Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) (Aspergillus nidulans)	Fungi	339		0	False
+P25586	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	316		0	False
+Q01981	Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) (Aspergillus nidulans)	Fungi	416		0	False
+Q90WJ9	Takifugu pardalis (Panther puffer) (Tetraodon pardalis)	Metazoa	391	20.0	1	
+P29794	Canis lupus familiaris (Dog) (Canis familiaris)	Metazoa	180	20.0	1	
+P12695	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	482		0	False
+Q61471	Mus musculus (Mouse)	Metazoa	362		0	False
+Q02775	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	382		0	False
+Q9SI37	Arabidopsis thaliana (Mouse-ear cress)	Plants	487		0	False
+P45968	Caenorhabditis elegans	Metazoa	339		0	False
+Q5AP95	Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast)	Fungi	517		0	False
+Q38HM4	Mus musculus (Mouse)	Metazoa	350		0	False
+Q9LSV0	Arabidopsis thaliana (Mouse-ear cress)	Plants	289		0	False
+Q9UNE0	Homo sapiens (Human)	Metazoa	448	26.0	1	
+Q9BZW8	Homo sapiens (Human)	Metazoa	370	21.0	1	
+O60141	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	299		0	False
+P82669	Bos taurus (Bovine)	Metazoa	173		0	False
+Q4KL25	Mus musculus (Mouse)	Metazoa	219		0	True
+Q9JII1	Mus musculus (Mouse)	Metazoa	647		0	False
+Q6LA53	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	346		0	False
+P09595	Spinacia oleracea (Spinach)	Plants	218		0	False
+O14464	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	93		0	False
+P02814	Homo sapiens (Human)	Metazoa	79	22.0	1	
+Q9VPQ6	Drosophila melanogaster (Fruit fly)	Metazoa	1191		0	False
+P28328	Homo sapiens (Human)	Metazoa	305		0	True
+Q9DBR0	Mus musculus (Mouse)	Metazoa	687		0	False
+O15164	Homo sapiens (Human)	Metazoa	1050		0	False
+Q95JC9	Sus scrofa (Pig)	Metazoa	676	16.0	1	
+Q96QE5	Homo sapiens (Human)	Metazoa	360		0	False
+Q8NFT6	Homo sapiens (Human)	Metazoa	615		0	False
+Q9C108	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	163		0	False
+P18181	Mus musculus (Mouse)	Metazoa	240	22.0	1	
+P55847	Penaeus japonicus (Kuruma prawn) (Marsupenaeus japonicus)	Metazoa	105	28.0	1	
+Q9JLC3	Mus musculus (Mouse)	Metazoa	116		0	False
+P00423	Bos taurus (Bovine)	Metazoa	169		0	False
+P32388	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	137		0	False
+Q80VY9	Mus musculus (Mouse)	Metazoa	698		0	False
+Q8IVS2	Homo sapiens (Human)	Metazoa	390		0	False
+C0HKG1	Clitoria ternatea (Butterfly pea)	Plants	127	24.0	1	
+Q9FNN3	Arabidopsis thaliana (Mouse-ear cress)	Plants	908		0	False
+F4J264	Arabidopsis thaliana (Mouse-ear cress)	Plants	406		0	False
+Q6E0U4	Homo sapiens (Human)	Metazoa	476	21.0	1	
+Q9SB47	Arabidopsis thaliana (Mouse-ear cress)	Plants	319		0	False
+P87142	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	550		0	False
+Q9R1M5	Mus musculus (Mouse)	Metazoa	1163		0	False
+Q9VEB4	Drosophila melanogaster (Fruit fly)	Metazoa	560		0	False
+Q23529	Caenorhabditis elegans	Metazoa	777		0	False
+Q63ZY3	Homo sapiens (Human)	Metazoa	851		0	False
+Q9HBF4	Homo sapiens (Human)	Metazoa	777		0	False
+O14215	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	454		0	False
+O94358	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	845		0	False
+Q60GF7	Rattus norvegicus (Rat)	Metazoa	252	22.0	1	
+O94993	Homo sapiens (Human)	Metazoa	753		0	False
+P78953	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	920		0	False
+Q09842	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	407		0	False
+Q7Y1W1	Arabidopsis thaliana (Mouse-ear cress)	Plants	527		0	False
+B5KM66	Mus musculus (Mouse)	Metazoa	88		0	False
+P60896	Homo sapiens (Human)	Metazoa	70		0	False
+Q6W2J9	Homo sapiens (Human)	Metazoa	1755		0	False
+P53218	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	158		0	False
+Q01147	Mus musculus (Mouse)	Metazoa	327		0	False
+O65220	Arabidopsis thaliana (Mouse-ear cress)	Plants	281		0	False
+B3G515	Danio rerio (Zebrafish) (Brachydanio rerio)	Metazoa	353		0	True
+O94985	Homo sapiens (Human)	Metazoa	981	28.0	1	
+Q9UBP6	Homo sapiens (Human)	Metazoa	276		0	False
+P92792	Solanum tuberosum (Potato)	Plants	204		0	False
+Q99PP2	Mus musculus (Mouse)	Metazoa	2237		0	False
+Q9HEQ9	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	349		0	False
+Q9CQF3	Mus musculus (Mouse)	Metazoa	227		0	False
+S8F527	Toxoplasma gondii (strain ATCC 50611 / Me49)	Other	1283		0	False
+Q12219	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	294		0	False
+Q08GK9	Mullus surmuletus (Striped red mullet)	Metazoa	178		0	False
+O88495	Mus musculus (Mouse)	Metazoa	591		0	True
+Q9Y287	Homo sapiens (Human)	Metazoa	266		0	True
+Q9Y3Z3	Homo sapiens (Human)	Metazoa	626		0	False
+Q96K12	Homo sapiens (Human)	Metazoa	515		0	False
+P36162	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	133		0	False
+Q9GSA4	Galleria mellonella (Greater wax moth)	Metazoa	113	19.0	1	
+Q8RWV8	Arabidopsis thaliana (Mouse-ear cress)	Plants	442		0	False
+Q9NXR7	Homo sapiens (Human)	Metazoa	383		0	False
+P33075	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	220		0	False
+P36954	Homo sapiens (Human)	Metazoa	125		0	False
+P12729	Dictyostelium discoideum (Social amoeba)	Other	168	19.0	1	
+O35253	Mus musculus (Mouse)	Metazoa	426		0	False
+Q969V5	Homo sapiens (Human)	Metazoa	352		0	True
+Q9NRR1	Homo sapiens (Human)	Metazoa	136	22.0	1	
+Q5KMX8	Cryptococcus deneoformans (strain JEC21 / ATCC MYA-565) (Cryptococcus neoformans var. neoformans serotype D)	Fungi	783		0	False
+Q8GUK1	Arabidopsis thaliana (Mouse-ear cress)	Plants	602		0	False
+O00092	Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af293) (Neosartorya fumigata)	Fungi	465	26.0	1	
+P40366	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	167		0	False
+Q9U7C9	Dictyostelium discoideum (Social amoeba)	Other	756		0	False
+P08635	Rattus norvegicus (Rat)	Metazoa	263		0	False
+P29374	Homo sapiens (Human)	Metazoa	1257		0	False
+Q8IY18	Homo sapiens (Human)	Metazoa	1101		0	False
+Q9FVR6	Arabidopsis thaliana (Mouse-ear cress)	Plants	296		0	False
+P56277	Homo sapiens (Human)	Metazoa	68		0	False
+Q968Z6	Dictyostelium discoideum (Social amoeba)	Other	557	19.0	1	
+Q8BMF8	Mus musculus (Mouse)	Metazoa	549		0	True
+O95633	Homo sapiens (Human)	Metazoa	263	26.0	1	
+Q04447	Mus musculus (Mouse)	Metazoa	381		0	False
+Q96RY5	Homo sapiens (Human)	Metazoa	1269		0	False
+Q01852	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	431		0	False
+Q9Z0W3	Mus musculus (Mouse)	Metazoa	1402		0	False
+Q9SJW9	Arabidopsis thaliana (Mouse-ear cress)	Plants	571		0	False
+W0RYD3	Oryza sativa subsp. japonica (Rice)	Plants	2135		0	False
+Q9H5Z6	Homo sapiens (Human)	Metazoa	455		0	False
+O74771	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	374		0	False
+Q99569	Homo sapiens (Human)	Metazoa	1192		0	False
+Q9P7G6	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	566		0	False
+Q5PT50	Rattus norvegicus (Rat)	Metazoa	340		0	True
+Q9D219	Mus musculus (Mouse)	Metazoa	1425		0	False
+Q9D6J5	Mus musculus (Mouse)	Metazoa	186		0	False
+P14868	Homo sapiens (Human)	Metazoa	501		0	False
+O14350	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	181		0	False
+Q04089	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	582		0	False
+Q54HC6	Dictyostelium discoideum (Social amoeba)	Other	1460		0	False
+Q9R269	Mus musculus (Mouse)	Metazoa	1755		0	False
+Q96AE7	Homo sapiens (Human)	Metazoa	1141		0	False
+C0HM53	Populus euphratica (Euphrates poplar)	Plants	510		0	False
+Q8MP06	Tyria jacobaeae (Cinnabar moth)	Metazoa	456	22.0	1	
+P10964	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1664		0	False
+Q21776	Caenorhabditis elegans	Metazoa	987		0	False
+Q05812	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	728		0	False
+Q22002	Caenorhabditis elegans	Metazoa	582		0	False
+Q9FFF4	Arabidopsis thaliana (Mouse-ear cress)	Plants	477		0	False
+Q9P6M0	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	419		0	False
+P51864	Homo sapiens (Human)	Metazoa	188		0	False
+O74876	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	357		0	False
+Q92979	Homo sapiens (Human)	Metazoa	244		0	False
+Q9NWU2	Homo sapiens (Human)	Metazoa	228		0	False
+Q09914	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	202		0	False
+O70405	Mus musculus (Mouse)	Metazoa	1051		0	False
+Q9LYG9	Arabidopsis thaliana (Mouse-ear cress)	Plants	734		0	False
+P47050	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	842		0	False
+O82504	Arabidopsis thaliana (Mouse-ear cress)	Plants	1133		0	False
+Q9P287	Homo sapiens (Human)	Metazoa	314		0	False
+Q8GWA7	Arabidopsis thaliana (Mouse-ear cress)	Plants	349		0	False
+Q9FJW6	Arabidopsis thaliana (Mouse-ear cress)	Plants	798		0	False
+Q9VD44	Drosophila melanogaster (Fruit fly)	Metazoa	1364		0	False
+Q9XVD5	Caenorhabditis elegans	Metazoa	303		0	False
+Q7TS55	Mus musculus (Mouse)	Metazoa	173		0	True
+Q9SS48	Arabidopsis thaliana (Mouse-ear cress)	Plants	629		0	False
+P36152	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	348		0	False
+P13611	Homo sapiens (Human)	Metazoa	3396	20.0	1	
+P80269	Solanum tuberosum (Potato)	Plants	229		0	False
+P38075	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	228		0	False
+Q9SCJ9	Arabidopsis thaliana (Mouse-ear cress)	Plants	1067		0	False
+P79943	Xenopus laevis (African clawed frog)	Metazoa	254		0	False
+A7UWX2	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	Fungi	470		0	False
+Q9GZY4	Homo sapiens (Human)	Metazoa	146		0	True
+Q9UQ35	Homo sapiens (Human)	Metazoa	2752		0	False
+Q96QC0	Homo sapiens (Human)	Metazoa	940		0	False
+Q59Y31	Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast)	Fungi	533	21.0	1	
+F4JYC8	Arabidopsis thaliana (Mouse-ear cress)	Plants	1706		0	False
+Q9Z1A5	Rattus norvegicus (Rat)	Metazoa	534		0	False
+Q91WK7	Mus musculus (Mouse)	Metazoa	299		0	False
+Q8WWM7	Homo sapiens (Human)	Metazoa	1075		0	False
+Q9GU69	Lymnaea stagnalis (Great pond snail) (Helix stagnalis)	Metazoa	64	21.0	1	
+O43808	Homo sapiens (Human)	Metazoa	307		0	True
+P04271	Homo sapiens (Human)	Metazoa	92		0	False
+Q9FX45	Arabidopsis thaliana (Mouse-ear cress)	Plants	181		0	False
+Q9H5F2	Homo sapiens (Human)	Metazoa	150		0	False
+Q07349	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	420		0	False
+Q9ZQZ6	Arabidopsis thaliana (Mouse-ear cress)	Plants	263		0	False
+A0A075TXZ1	Penicillium expansum (Blue mold rot fungus)	Fungi	324		0	False
+Q80ZD3	Mus musculus (Mouse)	Metazoa	593		0	True
+Q9UT91	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	211		0	True
+Q8C167	Mus musculus (Mouse)	Metazoa	725		0	False
+Q5VWQ8	Homo sapiens (Human)	Metazoa	1189		0	False
+Q9Z286	Rattus norvegicus (Rat)	Metazoa	1608		0	False
+O49292	Arabidopsis thaliana (Mouse-ear cress)	Plants	260		0	False
+P62847	Homo sapiens (Human)	Metazoa	133		0	False
+A0A0K9RDW0	Spinacia oleracea (Spinach)	Plants	675		0	False
+P32843	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	850		0	False
+O13915	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	265		0	False
+Q13351	Homo sapiens (Human)	Metazoa	362		0	False
+Q1K7P9	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	Fungi	140		0	False
+Q6IA86	Homo sapiens (Human)	Metazoa	826		0	False
+Q8TAT5	Homo sapiens (Human)	Metazoa	605		0	False
+F4JAU2	Arabidopsis thaliana (Mouse-ear cress)	Plants	1697		0	False
+P34077	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	839		0	False
+Q7M418	Oligobrachia mashikoi (Beard worm)	Metazoa	163	16.0	1	
+Q9Y2G0	Homo sapiens (Human)	Metazoa	817		0	False
+P25637	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	258		0	False
+Q8IUR6	Homo sapiens (Human)	Metazoa	639		0	False
+Q6ASY2	Oryza sativa subsp. japonica (Rice)	Plants	178	26.0	1	
+Q9UH92	Homo sapiens (Human)	Metazoa	298		0	False
+Q8L493	Arabidopsis thaliana (Mouse-ear cress)	Plants	373		0	False
+P40012	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	539		0	False
+P59103	Homo sapiens (Human)	Metazoa	153		0	False
+Q8N7J2	Homo sapiens (Human)	Metazoa	671		0	False
+Q6DBA5	Arabidopsis thaliana (Mouse-ear cress)	Plants	205		0	False
+O95415	Homo sapiens (Human)	Metazoa	125		0	True
+P52823	Homo sapiens (Human)	Metazoa	247	17.0	1	
+P28320	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	278		0	False
+P0DP88	Danio rerio (Zebrafish) (Brachydanio rerio)	Metazoa	75		0	True
+Q96BF3	Homo sapiens (Human)	Metazoa	282	22.0	1	
+P05067	Homo sapiens (Human)	Metazoa	770	17.0	1	
+A0A0D1CRD0	Mycosarcoma maydis (Corn smut fungus) (Ustilago maydis)	Fungi	550		0	False
+C0HM83	Homo sapiens (Human)	Metazoa	58		0	False
+Q8L3X9	Arabidopsis thaliana (Mouse-ear cress)	Plants	461		0	False
+B3STN7	Nosema bombycis (strain CQ1 / CVCC 102059) (Microsporidian parasite) (Pebrine of silkworm)	Fungi	316	18.0	1	
+E0XKJ9	Tabanus yao (Horsefly)	Metazoa	349	25.0	1	
+Q9HAW0	Homo sapiens (Human)	Metazoa	419		0	False
+Q9NX58	Homo sapiens (Human)	Metazoa	379		0	False
+O96910	Aplysia californica (California sea hare)	Metazoa	76	18.0	1	
+Q9QXV1	Mus musculus (Mouse)	Metazoa	362		0	False
+Q84XV2	Arabidopsis thaliana (Mouse-ear cress)	Plants	386		0	False
+Q8CDY7	Mus musculus (Mouse)	Metazoa	219		0	False
+O81851	Arabidopsis thaliana (Mouse-ear cress)	Plants	304		0	False
+Q9NR16	Homo sapiens (Human)	Metazoa	1453	40.0	1	
+O43805	Homo sapiens (Human)	Metazoa	119		0	False
+P23515	Homo sapiens (Human)	Metazoa	440	24.0	1	
+P38801	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	184		0	False
+Q9NPI6	Homo sapiens (Human)	Metazoa	582		0	False
+Q8MMZ7	Toxoplasma gondii	Other	994		0	False
+Q26635	Sarcophaga peregrina (Flesh fly) (Boettcherisca peregrina)	Metazoa	354		0	False
+Q6UXD5	Homo sapiens (Human)	Metazoa	910	27.0	1	
+Q9USX4	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	108		0	False
+Q8BG07	Mus musculus (Mouse)	Metazoa	503		0	True
+Q9LW26	Arabidopsis thaliana (Mouse-ear cress)	Plants	701		0	False
+Q13562	Homo sapiens (Human)	Metazoa	356		0	False
+Q8R4T5	Rattus norvegicus (Rat)	Metazoa	394		0	False
+Q8GV05	Arabidopsis thaliana (Mouse-ear cress)	Plants	106		0	False
+Q8TDU6	Homo sapiens (Human)	Metazoa	330		0	True
+Q6PIV2	Homo sapiens (Human)	Metazoa	292		0	False
+P53083	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	459		0	False
+Q9NZD8	Homo sapiens (Human)	Metazoa	308		0	False
+P41047	Mus musculus (Mouse)	Metazoa	279		0	True
+Q9R1T7	Rattus norvegicus (Rat)	Metazoa	200	20.0	1	
+Q04545	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1251		0	False
+P46777	Homo sapiens (Human)	Metazoa	297		0	False
+Q9ES40	Rattus norvegicus (Rat)	Metazoa	188		0	True
+Q9NS69	Homo sapiens (Human)	Metazoa	142		0	True
+O13539	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	261		0	False
+Q9BZE4	Homo sapiens (Human)	Metazoa	634		0	False
+Q80TG1	Mus musculus (Mouse)	Metazoa	1036		0	False
+A1Z8P9	Drosophila melanogaster (Fruit fly)	Metazoa	2346		0	False
+Q5JS13	Homo sapiens (Human)	Metazoa	557		0	False
+Q8GS60	Arabidopsis thaliana (Mouse-ear cress)	Plants	462		0	False
+Q5PQX1	Rattus norvegicus (Rat)	Metazoa	583		0	False
+Q93VT9	Arabidopsis thaliana (Mouse-ear cress)	Plants	220		0	False
+Q386M3	Trypanosoma brucei brucei (strain 927/4 GUTat10.1)	Other	862		0	False
+Q6NTE8	Homo sapiens (Human)	Metazoa	343		0	False
+Q9Y5Q6	Homo sapiens (Human)	Metazoa	135	22.0	1	
+Q8N5N7	Homo sapiens (Human)	Metazoa	158		0	False
+Q9P7S6	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	274		0	False
+Q9SKZ5	Arabidopsis thaliana (Mouse-ear cress)	Plants	560		0	False
+Q9FFJ8	Arabidopsis thaliana (Mouse-ear cress)	Plants	449		0	False
+Q5PR68	Mus musculus (Mouse)	Metazoa	954		0	False
+Q5TB30	Homo sapiens (Human)	Metazoa	811		0	False
+Q15388	Homo sapiens (Human)	Metazoa	145		0	True
+Q9ZVA7	Arabidopsis thaliana (Mouse-ear cress)	Plants	468		0	False
+Q9H0F5	Homo sapiens (Human)	Metazoa	515		0	False
+Q9HB71	Homo sapiens (Human)	Metazoa	228		0	False
+P17301	Homo sapiens (Human)	Metazoa	1181	29.0	1	
+Q54HS3	Dictyostelium discoideum (Social amoeba)	Other	1486		0	False
+P49903	Homo sapiens (Human)	Metazoa	392		0	False
+P60484	Homo sapiens (Human)	Metazoa	403		0	False
+Q63HN8	Homo sapiens (Human)	Metazoa	5207		0	False
+P22216	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	821		0	False
+P03899	Mus musculus (Mouse)	Metazoa	115		0	True
+Q9U405	Drosophila melanogaster (Fruit fly)	Metazoa	570		0	False
+Q9WTJ4	Mus musculus (Mouse)	Metazoa	500		0	False
+Q9VQ89	Drosophila melanogaster (Fruit fly)	Metazoa	867		0	False
+B5X0I6	Arabidopsis thaliana (Mouse-ear cress)	Plants	1091		0	False
+Q9CQZ5	Mus musculus (Mouse)	Metazoa	131		0	False
+F4KHG6	Arabidopsis thaliana (Mouse-ear cress)	Plants	489		0	False
+P62804	Rattus norvegicus (Rat)	Metazoa	103		0	False
+Q01842	Drosophila melanogaster (Fruit fly)	Metazoa	732		0	False
+P40566	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	764		0	False
+P78753	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	557		0	False
+P58234	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	144		0	False
+P10040	Drosophila melanogaster (Fruit fly)	Metazoa	2146	83.0	1	
+Q386F1	Trypanosoma brucei brucei (strain 927/4 GUTat10.1)	Other	435		0	True
+P52296	Rattus norvegicus (Rat)	Metazoa	875		0	False
+Q96JH7	Homo sapiens (Human)	Metazoa	1222		0	False
+F4KCE9	Arabidopsis thaliana (Mouse-ear cress)	Plants	598		0	False
+P07266	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	363		0	False
+Q7KMJ6	Drosophila melanogaster (Fruit fly)	Metazoa	793		0	False
+Q6ZN18	Homo sapiens (Human)	Metazoa	517		0	False
+Q6PIZ9	Homo sapiens (Human)	Metazoa	186		0	True
+P0C8G6	Pomacea canaliculata (Golden apple snail)	Metazoa	565	26.0	1	
+G5EG44	Caenorhabditis elegans	Metazoa	281		0	False
+P22033	Homo sapiens (Human)	Metazoa	750		0	False
+B9DHT4	Arabidopsis thaliana (Mouse-ear cress)	Plants	710		0	False
+C6KST8	Plasmodium falciparum (isolate 3D7)	Other	358		0	True
+O95551	Homo sapiens (Human)	Metazoa	362		0	False
+Q8N9M5	Homo sapiens (Human)	Metazoa	508		0	False
+Q9H0G5	Homo sapiens (Human)	Metazoa	558		0	False
+Q53H12	Homo sapiens (Human)	Metazoa	422		0	False
+O13953	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	337		0	False
+P55899	Homo sapiens (Human)	Metazoa	365	23.0	1	
+Q8VYR5	Arabidopsis thaliana (Mouse-ear cress)	Plants	444		0	False
+Q03153	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	612		0	False
+Q53FT3	Homo sapiens (Human)	Metazoa	197		0	False
+Q9SV55	Arabidopsis thaliana (Mouse-ear cress)	Plants	425		0	False
+Q64442	Mus musculus (Mouse)	Metazoa	357		0	False
+P32786	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	894		0	False
+P28770	Oncorhynchus mykiss (Rainbow trout) (Salmo gairdneri)	Metazoa	221	21.0	1	
+P0DN34	Mus musculus (Mouse)	Metazoa	57		0	True
+Q8BN78	Mus musculus (Mouse)	Metazoa	671		0	False
+Q80TH2	Mus musculus (Mouse)	Metazoa	1402		0	False
+Q9P7N4	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	315		0	False
+Q9BZH6	Homo sapiens (Human)	Metazoa	1224		0	False
+P42858	Homo sapiens (Human)	Metazoa	3142		0	False
+Q4V7C6	Rattus norvegicus (Rat)	Metazoa	693		0	False
+Q96A54	Homo sapiens (Human)	Metazoa	375		0	False
+Q9CAF6	Arabidopsis thaliana (Mouse-ear cress)	Plants	950		0	False
+Q03825	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	758		0	False
+Q12368	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	194		0	False
+Q9H6K1	Homo sapiens (Human)	Metazoa	298		0	False
+Q9H6E5	Homo sapiens (Human)	Metazoa	874		0	False
+P13405	Mus musculus (Mouse)	Metazoa	921		0	False
+P53119	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	910		0	False
+A0A5K1K8Y8	Plasmodium falciparum (isolate 3D7)	Other	372		0	False
+A0A7M6UMR7	Apis mellifera (Honeybee)	Metazoa	1010	16.0	1	
+Q9ZR07	Arabidopsis thaliana (Mouse-ear cress)	Plants	187		0	False
+Q9VNH1	Drosophila melanogaster (Fruit fly)	Metazoa	300		0	False
+O62680	Sus scrofa (Pig)	Metazoa	123	25.0	1	
+E9PVX6	Mus musculus (Mouse)	Metazoa	3177		0	False
+P52946	Mus musculus (Mouse)	Metazoa	284		0	False
+Q18171	Caenorhabditis elegans	Metazoa	424		0	False
+Q08831	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	523		0	False
+Q64HC7	Armadillidium vulgare (Common pill woodlouse) (Armadillo vulgare)	Metazoa	73	19.0	1	
+Q96255	Arabidopsis thaliana (Mouse-ear cress)	Plants	430		0	False
+Q7JNM3	Caenorhabditis elegans	Metazoa	315		0	False
+Q86VE9	Homo sapiens (Human)	Metazoa	423		0	True
+Q6NTF7	Homo sapiens (Human)	Metazoa	200		0	False
+Q8LIY8	Oryza sativa subsp. japonica (Rice)	Plants	569		0	False
+P48995	Homo sapiens (Human)	Metazoa	793		0	False
+Q10337	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	849		0	False
+P53168	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	247		0	False
+Q9VAW5	Drosophila melanogaster (Fruit fly)	Metazoa	1673		0	False
+Q9LKA0	Arabidopsis thaliana (Mouse-ear cress)	Plants	259		0	False
+F8VPJ6	Mus musculus (Mouse)	Metazoa	1459		0	False
+P13788	Spinacia oleracea (Spinach)	Plants	201		0	False
+Q587J8	Homo sapiens (Human)	Metazoa	217		0	False
+A2AMM0	Mus musculus (Mouse)	Metazoa	362		0	False
+Q9NS68	Homo sapiens (Human)	Metazoa	423	29.0	1	
+Q9UTL6	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	225		0	False
+F4HYD7	Arabidopsis thaliana (Mouse-ear cress)	Plants	467		0	False
+O02826	Sus scrofa (Pig)	Metazoa	111	20.0	1	
+P38921	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	284		0	True
+Q08B36	Xenopus laevis (African clawed frog)	Metazoa	374		0	False
+Q9JJ28	Mus musculus (Mouse)	Metazoa	1271		0	False
+Q86LG1	Drosophila melanogaster (Fruit fly)	Metazoa	606		0	True
+P84688	Tityus obscurus (Amazonian scorpion) (Tityus cambridgei)	Metazoa	84	20.0	1	
+Q60560	Mesocricetus auratus (Golden hamster)	Metazoa	989		0	False
+A0A078CGE6	Brassica napus (Rape)	Plants	1299		0	False
+Q53JF7	Oryza sativa subsp. japonica (Rice)	Plants	138		0	False
+P93286	Arabidopsis thaliana (Mouse-ear cress)	Plants	442		0	True
+Q15125	Homo sapiens (Human)	Metazoa	230		0	True
+Q9CPZ1	Mus musculus (Mouse)	Metazoa	294		0	False
+O01949	Aedes aegypti (Yellowfever mosquito) (Culex aegypti)	Metazoa	273	19.0	1	
+Q8WZ42	Homo sapiens (Human)	Metazoa	34350		0	False
+Q12089	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	606		0	False
+O43719	Homo sapiens (Human)	Metazoa	755		0	False
+P10176	Homo sapiens (Human)	Metazoa	69		0	True
+P49367	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	693		0	False
+P55203	Bos taurus (Bovine)	Metazoa	1110	56.0	1	
+C0HLF1	Dictyostelium discoideum (Social amoeba)	Other	154		0	False
+Q9ZNZ7	Arabidopsis thaliana (Mouse-ear cress)	Plants	1622		0	False
+Q8R515	Rattus norvegicus (Rat)	Metazoa	873		0	False
+Q8CF60	Mus musculus (Mouse)	Metazoa	680		0	False
+Q9VPF9	Drosophila melanogaster (Fruit fly)	Metazoa	373		0	False
+Q9N425	Caenorhabditis elegans	Metazoa	501		0	False
+Q03067	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	99		0	False
+F4K410	Arabidopsis thaliana (Mouse-ear cress)	Plants	675		0	False
+Q9LMK5	Arabidopsis thaliana (Mouse-ear cress)	Plants	160		0	False
+Q9NTM9	Homo sapiens (Human)	Metazoa	273		0	False
+Q9EP97	Mus musculus (Mouse)	Metazoa	568		0	False
+P47154	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	453		0	True
+P04080	Homo sapiens (Human)	Metazoa	98		0	False
+P38255	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	430		0	False
+P48268	Chlamydomonas reinhardtii (Chlamydomonas smithii)	Plants	82		0	True
+Q6UXV4	Homo sapiens (Human)	Metazoa	268		0	False
+Q6P4Q7	Homo sapiens (Human)	Metazoa	775		0	False
+Q8BSM7	Mus musculus (Mouse)	Metazoa	564		0	True
+P30986	Eschscholzia californica (California poppy)	Plants	538	23.0	1	
+G5EDM7	Caenorhabditis elegans	Metazoa	627		0	False
+Q9R0W5	Rattus norvegicus (Rat)	Metazoa	495		0	True
+P0C2C1	Rattus norvegicus (Rat)	Metazoa	160		0	False
+P0CB49	Rattus norvegicus (Rat)	Metazoa	1376		0	False
+P34708	Caenorhabditis elegans	Metazoa	1110		0	False
+Q14159	Homo sapiens (Human)	Metazoa	915		0	False
+Q9W0I5	Drosophila melanogaster (Fruit fly)	Metazoa	251		0	False
+Q9H633	Homo sapiens (Human)	Metazoa	154		0	False
+Q9UJX3	Homo sapiens (Human)	Metazoa	565		0	False
+O14161	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	293		0	False
+Q07508	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	261		0	False
+P43558	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	301		0	False
+Q6P9B9	Homo sapiens (Human)	Metazoa	1019		0	False
+O04211	Arabidopsis thaliana (Mouse-ear cress)	Plants	111		0	False
+Q10222	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	721		0	False
+Q9P805	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	127		0	False
+Q9VBX1	Drosophila melanogaster (Fruit fly)	Metazoa	992		0	False
+Q0P651	Homo sapiens (Human)	Metazoa	464		0	False
+Q03717	Mus musculus (Mouse)	Metazoa	857		0	False
+Q06833	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	770		0	True
+Q9NX76	Homo sapiens (Human)	Metazoa	183		0	True
+O88801	Rattus norvegicus (Rat)	Metazoa	354		0	False
+Q15654	Homo sapiens (Human)	Metazoa	476		0	False
+P80392	Meleagris gallopavo (Wild turkey)	Metazoa	64	28.0	1	
+B4XT64	Oryza sativa subsp. japonica (Rice)	Plants	582		0	False
+P30625	Caenorhabditis elegans	Metazoa	366		0	False
+Q9XIN0	Arabidopsis thaliana (Mouse-ear cress)	Plants	650		0	False
+Q96AQ6	Homo sapiens (Human)	Metazoa	731		0	False
+Q9SFB0	Arabidopsis thaliana (Mouse-ear cress)	Plants	526		0	True
+Q9Y224	Homo sapiens (Human)	Metazoa	244		0	False
+O97939	Sus scrofa (Pig)	Metazoa	1142	38.0	1	
+P04196	Homo sapiens (Human)	Metazoa	525	18.0	1	
+F6ZDS4	Mus musculus (Mouse)	Metazoa	2431		0	False
+P85841	Tityus serrulatus (Brazilian yellow scorpion)	Metazoa	403	19.0	1	
+O94285	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	203		0	False
+O14737	Homo sapiens (Human)	Metazoa	125		0	False
+Q8BMI0	Mus musculus (Mouse)	Metazoa	1194		0	False
+P20333	Homo sapiens (Human)	Metazoa	461	22.0	1	
+O23277	Arabidopsis thaliana (Mouse-ear cress)	Plants	1330		0	False
+Q96NW4	Homo sapiens (Human)	Metazoa	1050		0	False
+O74462	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	452		0	False
+Q8CCE9	Mus musculus (Mouse)	Metazoa	783		0	False
+E9PYL2	Mus musculus (Mouse)	Metazoa	2035		0	False
+Q5QGS0	Homo sapiens (Human)	Metazoa	1516		0	False
+A4D2B0	Homo sapiens (Human)	Metazoa	266		0	False
+Q96TL7	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	693		0	False
+P38812	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	185		0	False
+Q9ZUT3	Arabidopsis thaliana (Mouse-ear cress)	Plants	273		0	True
+O75132	Homo sapiens (Human)	Metazoa	1171		0	False
+Q9LXD6	Arabidopsis thaliana (Mouse-ear cress)	Plants	773	23.0	1	
+H3K2Y6	Arabidopsis thaliana (Mouse-ear cress)	Plants	2235		0	False
+D3Z3K2	Mus musculus (Mouse)	Metazoa	276		0	False
+Q9NR61	Homo sapiens (Human)	Metazoa	685	26.0	1	
+Q05635	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	350		0	False
+P18709	Xenopus laevis (African clawed frog)	Metazoa	1807	15.0	1	
+Q93ZB2	Arabidopsis thaliana (Mouse-ear cress)	Plants	509		0	True
+Q8BMB0	Mus musculus (Mouse)	Metazoa	1264		0	False
+P47069	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	682		0	False
+O94478	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	420		0	False
+P86929	Metaphire guillelmi (Earthworm) (Pheretima guillelmi)	Metazoa	73	14.0	1	
+Q8IXU6	Homo sapiens (Human)	Metazoa	374		0	True
+Q08816	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	343		0	False
+Q86YS7	Homo sapiens (Human)	Metazoa	1000		0	False
+P40023	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	145		0	False
+O43052	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	1150		0	False
+Q13257	Homo sapiens (Human)	Metazoa	205		0	False
+Q9P7M1	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	491		0	False
+Q5UCC4	Homo sapiens (Human)	Metazoa	262	25.0	1	
+Q8W4I6	Arabidopsis thaliana (Mouse-ear cress)	Plants	660		0	False
+G5ED47	Caenorhabditis elegans	Metazoa	413		0	False
+Q9ES74	Mus musculus (Mouse)	Metazoa	302		0	False
+Q01329	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	785		0	False
+P82916	Bos taurus (Bovine)	Metazoa	130		0	False
+F4J284	Arabidopsis thaliana (Mouse-ear cress)	Plants	860		0	False
+P36531	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	177		0	False
+P02230	Chironomus thummi thummi (Midge)	Metazoa	151	15.0	1	
+P80022	Solanum lycopersicum (Tomato) (Lycopersicon esculentum)	Plants	230	25.0	1	
+O43325	Homo sapiens (Human)	Metazoa	122		0	False
+O60053	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	440		0	False
+P38313	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	324		0	False
+A0A0B5KU17	Penicillium brevicompactum	Fungi	2190		0	False
+P34253	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	313		0	False
+Q9VGH1	Drosophila melanogaster (Fruit fly)	Metazoa	520		0	False
+P0DSJ6	Myrmecia gulosa (Red bulldog ant)	Metazoa	62	24.0	1	
+Q6NW34	Homo sapiens (Human)	Metazoa	567		0	False
+Q9LE82	Arabidopsis thaliana (Mouse-ear cress)	Plants	535		0	False
+Q8AWF5	Xenopus laevis (African clawed frog)	Metazoa	638		0	False
+Q8WVB6	Homo sapiens (Human)	Metazoa	975		0	False
+P22217	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	103		0	False
+A0A974HZL0	Xenopus laevis (African clawed frog)	Metazoa	332		0	False
+Q04083	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	370		0	True
+G3UVW3	Mus musculus (Mouse)	Metazoa	457		0	True
+Q67UU9	Oryza sativa subsp. japonica (Rice)	Plants	426		0	False
+P08172	Homo sapiens (Human)	Metazoa	466		0	True
+Q8NBL1	Homo sapiens (Human)	Metazoa	392	23.0	1	
+Q9SID1	Arabidopsis thaliana (Mouse-ear cress)	Plants	238		0	False
+Q12082	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	118		0	True
+Q9URQ5	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	78		0	False
+Q06810	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	360		0	False
+Q9FMJ0	Arabidopsis thaliana (Mouse-ear cress)	Plants	1121		0	False
+Q9UIL8	Homo sapiens (Human)	Metazoa	331		0	False
+Q17604	Caenorhabditis elegans	Metazoa	161		0	False
+Q9M9V9	Arabidopsis thaliana (Mouse-ear cress)	Plants	156		0	False
+Q9S7G6	Arabidopsis thaliana (Mouse-ear cress)	Plants	991		0	False
+P61209	Drosophila melanogaster (Fruit fly)	Metazoa	182		0	False
+A0A509AQ68	Plasmodium berghei (strain Anka)	Other	446		0	False
+P82920	Bos taurus (Bovine)	Metazoa	87		0	False
+Q9UM07	Homo sapiens (Human)	Metazoa	663		0	False
+Q9UKZ9	Homo sapiens (Human)	Metazoa	415	23.0	1	
+P57741	Arabidopsis thaliana (Mouse-ear cress)	Plants	195		0	False
+G4NCT7	Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) (Rice blast fungus) (Magnaporthe oryzae)	Fungi	361		0	False
+P49792	Homo sapiens (Human)	Metazoa	3224		0	False
+P50106	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	137		0	False
+Q84U09	Brassica napus (Rape)	Plants	215		0	False
+A0A7J6KE60	Toxoplasma gondii	Other	652		0	True
+Q8WVI0	Homo sapiens (Human)	Metazoa	70		0	True
+P36069	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	295		0	False
+Q2V3L3	Arabidopsis thaliana (Mouse-ear cress)	Plants	387		0	False
+P27680	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	312		0	False
+P42338	Homo sapiens (Human)	Metazoa	1070		0	False
+Q13428	Homo sapiens (Human)	Metazoa	1488		0	False
+P15999	Rattus norvegicus (Rat)	Metazoa	553		0	False
+P38574	Bos taurus (Bovine)	Metazoa	287	18.0	1	
+Q9M4B5	Arabidopsis thaliana (Mouse-ear cress)	Plants	129		0	False
+Q8CIV7	Mus musculus (Mouse)	Metazoa	274		0	False
+Q924L1	Mus musculus (Mouse)	Metazoa	360		0	False
+Q69XJ0	Oryza sativa subsp. japonica (Rice)	Plants	295		0	False
+Q12127	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	133	18.0	1	
+Q9P0N8	Homo sapiens (Human)	Metazoa	246		0	False
+Q9USM3	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	418		0	False
+O14253	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	780		0	False
+Q9UKV8	Homo sapiens (Human)	Metazoa	859		0	False
+Q9P6N2	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	229		0	False
+Q9M5P2	Arabidopsis thaliana (Mouse-ear cress)	Plants	289		0	False
+Q13228	Homo sapiens (Human)	Metazoa	472		0	False
+P53854	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	179		0	False
+Q06156	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1176		0	False
+Q24322	Drosophila melanogaster (Fruit fly)	Metazoa	899		0	True
+K4PW38	Oryza sativa subsp. japonica (Rice)	Plants	458		0	False
+P53034	Drosophila melanogaster (Fruit fly)	Metazoa	331		0	False
+O64645	Arabidopsis thaliana (Mouse-ear cress)	Plants	214		0	False
+Q09140	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	1448	18.0	1	
+Q9VZL5	Drosophila melanogaster (Fruit fly)	Metazoa	485		0	False
+P07884	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	428		0	False
+Q6PJW8	Homo sapiens (Human)	Metazoa	725		0	False
+Q5ABU7	Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast)	Fungi	564		0	False
+Q9BZE9	Homo sapiens (Human)	Metazoa	553		0	False
+O74489	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	329		0	False
+Q6UXB2	Homo sapiens (Human)	Metazoa	119	21.0	1	
+Q9Y2Z9	Homo sapiens (Human)	Metazoa	468		0	False
+Q9GZZ9	Homo sapiens (Human)	Metazoa	404		0	False
+X2JDY8	Drosophila melanogaster (Fruit fly)	Metazoa	1025		0	False
+Q9Y512	Homo sapiens (Human)	Metazoa	469		0	False
+C7AJA4	Trypanosoma brucei brucei	Other	406		0	False
+Q9LK29	Arabidopsis thaliana (Mouse-ear cress)	Plants	307		0	False
+P25584	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	144		0	True
+P38110	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	2787		0	False
+Q9C6T1	Arabidopsis thaliana (Mouse-ear cress)	Plants	505		0	False
+Q9M3K7	Spinacia oleracea (Spinach)	Plants	101		0	False
+Q9P1Z0	Homo sapiens (Human)	Metazoa	1013		0	False
+Q39129	Arabidopsis thaliana (Mouse-ear cress)	Plants	120		0	False
+P53062	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	197		0	True
+Q66GP9	Arabidopsis thaliana (Mouse-ear cress)	Plants	561		0	False
+O94446	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	463		0	False
+Q96E09	Homo sapiens (Human)	Metazoa	287		0	False
+O94708	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	394		0	False
+Q18593	Caenorhabditis elegans	Metazoa	329		0	True
+O94259	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	327		0	False
+Q9USQ1	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	960		0	False
+Q9W484	Drosophila melanogaster (Fruit fly)	Metazoa	985		0	False
+F4JW79	Arabidopsis thaliana (Mouse-ear cress)	Plants	1493		0	False
+Q03834	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1242		0	False
+Q96327	Arabidopsis thaliana (Mouse-ear cress)	Plants	392		0	False
+Q9JJL0	Mus musculus (Mouse)	Metazoa	238		0	False
+A0A0D1E6B3	Mycosarcoma maydis (Corn smut fungus) (Ustilago maydis)	Fungi	435		0	True
+P47043	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	880		0	False
+Q6FN94	Candida glabrata (strain ATCC 2001 / BCRC 20586 / JCM 3761 / NBRC 0622 / NRRL Y-65 / CBS 138) (Yeast) (Nakaseomyces glabratus)	Fungi	499		0	False
+Q9NSG2	Homo sapiens (Human)	Metazoa	853		0	False
+P53060	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	241		0	False
+Q05958	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	814		0	False
+Q9BQ87	Homo sapiens (Human)	Metazoa	522		0	False
+Q86W54	Homo sapiens (Human)	Metazoa	205		0	False
+Q867Z4	Drosophila melanogaster (Fruit fly)	Metazoa	970		0	False
+O95571	Homo sapiens (Human)	Metazoa	254		0	False
+Q00341	Homo sapiens (Human)	Metazoa	1268		0	False
+Q04401	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	133		0	False
+B8JLQ9	Danio rerio (Zebrafish) (Brachydanio rerio)	Metazoa	363	24.0	1	
+Q4PLS0	Mus musculus (Mouse)	Metazoa	1046		0	False
+P52923	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	378		0	True
+Q54ER9	Dictyostelium discoideum (Social amoeba)	Other	602		0	False
+P47057	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	423		0	False
+P38818	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	585		0	False
+Q94AR8	Arabidopsis thaliana (Mouse-ear cress)	Plants	509		0	False
+P40043	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	161		0	False
+Q9SGY2	Arabidopsis thaliana (Mouse-ear cress)	Plants	423		0	False
+P40630	Mus musculus (Mouse)	Metazoa	243		0	False
+P56280	Mus musculus (Mouse)	Metazoa	116		0	False
+O14113	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	263		0	False
+G5EGF8	Caenorhabditis elegans	Metazoa	354		0	False
+P22354	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	195		0	False
+Q9NYP3	Homo sapiens (Human)	Metazoa	566		0	False
+Q9VW47	Drosophila melanogaster (Fruit fly)	Metazoa	2531		0	False
+P06876	Mus musculus (Mouse)	Metazoa	636		0	False
+Q94K75	Arabidopsis thaliana (Mouse-ear cress)	Plants	401		0	False
+O35710	Mus musculus (Mouse)	Metazoa	429		0	False
+Q8NBZ0	Homo sapiens (Human)	Metazoa	244		0	False
+P01920	Homo sapiens (Human)	Metazoa	261	32.0	1	
+P18263	Chlamydomonas reinhardtii (Chlamydomonas smithii)	Plants	46		0	True
+Q15022	Homo sapiens (Human)	Metazoa	739		0	False
+D2K8N5	Nicotiana benthamiana	Plants	403		0	False
+Q39057	Arabidopsis thaliana (Mouse-ear cress)	Plants	373		0	False
+Q9NH52	Caenorhabditis elegans	Metazoa	898		0	False
+Q9U1S7	Caenorhabditis elegans	Metazoa	716		0	True
+Q9VEX5	Drosophila melanogaster (Fruit fly)	Metazoa	689		0	False
+Q61425	Mus musculus (Mouse)	Metazoa	314		0	False
+Q08605	Drosophila melanogaster (Fruit fly)	Metazoa	582		0	False
+A8MPH9	Drosophila melanogaster (Fruit fly)	Metazoa	722		0	False
+P53899	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	274		0	False
+Q95QA6	Caenorhabditis elegans	Metazoa	663		0	False
+Q5XKP0	Homo sapiens (Human)	Metazoa	118		0	True
+P04817	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	590		0	False
+Q9UTQ7	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	523		0	False
+Q9JLM4	Mus musculus (Mouse)	Metazoa	1370		0	False
+P41002	Homo sapiens (Human)	Metazoa	786		0	False
+Q9Y6A4	Homo sapiens (Human)	Metazoa	193		0	False
+Q9FFK6	Arabidopsis thaliana (Mouse-ear cress)	Plants	810		0	False
+Q91ZE0	Mus musculus (Mouse)	Metazoa	421		0	False
+Q9GYI0	Caenorhabditis elegans	Metazoa	910		0	False
+Q8L8Z1	Arabidopsis thaliana (Mouse-ear cress)	Plants	190		0	True
+Q5TCS8	Homo sapiens (Human)	Metazoa	1911		0	False
+O97297	Plasmodium falciparum (isolate 3D7)	Other	404		0	False
+Q8WZJ8	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	210		0	False
+P40474	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	542		0	True
+O44548	Caenorhabditis elegans	Metazoa	877		0	False
+Q6PCP5	Mus musculus (Mouse)	Metazoa	291		0	False
+A0A0D1DWQ2	Mycosarcoma maydis (Corn smut fungus) (Ustilago maydis)	Fungi	290	21.0	1	
+Q8N3V7	Homo sapiens (Human)	Metazoa	929		0	False
+Q05131	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	434		0	True
+Q9USY8	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	166		0	False
+Q9FKB5	Arabidopsis thaliana (Mouse-ear cress)	Plants	222		0	False
+Q8BHK1	Mus musculus (Mouse)	Metazoa	323		0	True
+Q7RXU7	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	Fungi	396		0	False
+D3YN49	Xenopus laevis (African clawed frog)	Metazoa	316		0	False
+P38204	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	145		0	False
+Q5W7F1	Danio rerio (Zebrafish) (Brachydanio rerio)	Metazoa	743		0	True
+P28776	Mus musculus (Mouse)	Metazoa	407		0	False
+Q1ZXQ0	Dictyostelium discoideum (Social amoeba)	Other	1019		0	False
+Q9BSF8	Homo sapiens (Human)	Metazoa	475		0	False
+Q8H110	Arabidopsis thaliana (Mouse-ear cress)	Plants	337		0	False
+P78527	Homo sapiens (Human)	Metazoa	4128		0	False
+P87074	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	778		0	False
+O74792	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	515		0	False
+P83267	Hydrolagus colliei (Spotted ratfish) (Chimaera colliei)	Metazoa	48		0	False
+G5EC32	Caenorhabditis elegans	Metazoa	1005		0	False
+P13712	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	422		0	False
+Q06706	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1349		0	False
+Q84MZ4	Arabidopsis thaliana (Mouse-ear cress)	Plants	412		0	False
+O43508	Homo sapiens (Human)	Metazoa	249		0	True
+W2SDE2	Cyphellophora europaea (strain CBS 101466) (Phialophora europaea)	Fungi	346		0	False
+Q0PNE2	Homo sapiens (Human)	Metazoa	266		0	False
+Q9N4U5	Caenorhabditis elegans	Metazoa	547		0	False
+P55039	Homo sapiens (Human)	Metazoa	364		0	False
+Q75WF2	Acanthaster planci (Crown-of-thorns starfish)	Metazoa	358	26.0	1	
+Q9BR61	Homo sapiens (Human)	Metazoa	282		0	False
+Q03654	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	590		0	False
+Q9UTP3	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	59		0	False
+Q9U2M1	Caenorhabditis elegans	Metazoa	1499		0	False
+Q8IVE3	Homo sapiens (Human)	Metazoa	1493		0	False
+Q16568	Homo sapiens (Human)	Metazoa	116	27.0	1	
+Q10214	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	131		0	False
+Q9HCJ1	Homo sapiens (Human)	Metazoa	492		0	True
+Q6PE84	Mus musculus (Mouse)	Metazoa	287		0	True
+Q12182	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	319		0	False
+Q9UTH0	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	1162		0	False
+Q96EV8	Homo sapiens (Human)	Metazoa	351		0	False
+Q96MH2	Homo sapiens (Human)	Metazoa	286		0	False
+Q9C516	Arabidopsis thaliana (Mouse-ear cress)	Plants	848		0	False
+F8VQK3	Mus musculus (Mouse)	Metazoa	730		0	False
+Q01638	Homo sapiens (Human)	Metazoa	556	18.0	1	
+Q5HYK7	Homo sapiens (Human)	Metazoa	790		0	False
+C0HME5	Homo sapiens (Human)	Metazoa	99		0	False
+O82628	Arabidopsis thaliana (Mouse-ear cress)	Plants	110		0	False
+Q9Y2M2	Homo sapiens (Human)	Metazoa	375		0	False
+Q70CQ1	Homo sapiens (Human)	Metazoa	688		0	False
+Q53F19	Homo sapiens (Human)	Metazoa	620		0	False
+Q25825	Plasmodium falciparum (isolate 3D7)	Other	121		0	True
+Q9NWY4	Homo sapiens (Human)	Metazoa	346		0	False
+Q9D1F4	Mus musculus (Mouse)	Metazoa	257		0	False
+P02466	Rattus norvegicus (Rat)	Metazoa	1372	22.0	1	
+Q22663	Caenorhabditis elegans	Metazoa	183		0	False
+Q9NVI1	Homo sapiens (Human)	Metazoa	1328		0	False
+O75762	Homo sapiens (Human)	Metazoa	1119		0	False
+F4ITM1	Arabidopsis thaliana (Mouse-ear cress)	Plants	398		0	False
+Q9FH37	Arabidopsis thaliana (Mouse-ear cress)	Plants	234		0	False
+Q7L2Z9	Homo sapiens (Human)	Metazoa	268		0	False
+Q7Z7H3	Homo sapiens (Human)	Metazoa	387		0	False
+P55786	Homo sapiens (Human)	Metazoa	919		0	False
+Q6P2E9	Homo sapiens (Human)	Metazoa	1401		0	False
+O48917	Arabidopsis thaliana (Mouse-ear cress)	Plants	477		0	False
+Q9NW15	Homo sapiens (Human)	Metazoa	660		0	False
+P20774	Homo sapiens (Human)	Metazoa	298	20.0	1	
+Q9ZW85	Arabidopsis thaliana (Mouse-ear cress)	Plants	251		0	False
+Q12884	Homo sapiens (Human)	Metazoa	760		0	True
+Q18490	Caenorhabditis elegans	Metazoa	142		0	False
+O80323	Pyrus pyrifolia (Chinese pear) (Pyrus serotina)	Plants	222	22.0	1	
+Q41161	Robinia pseudoacacia (Black locust)	Plants	285	31.0	1	
+Q2Q5T5	Mus musculus (Mouse)	Metazoa	84		0	True
+Q6KCD5	Mus musculus (Mouse)	Metazoa	2798		0	False
+P22985	Rattus norvegicus (Rat)	Metazoa	1331		0	False
+O88713	Mus musculus (Mouse)	Metazoa	188		0	True
+Q8BL80	Mus musculus (Mouse)	Metazoa	702		0	False
+Q9VQD4	Drosophila melanogaster (Fruit fly)	Metazoa	274		0	False
+Q12049	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	470		0	False
+Q8BQP9	Mus musculus (Mouse)	Metazoa	257		0	False
+Q8NC67	Homo sapiens (Human)	Metazoa	525	22.0	1	
+Q02873	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	248		0	False
+P83213	Bolinus brandaris (Purple dye murex) (Murex brandaris)	Metazoa	54		0	False
+Q03246	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	237		0	False
+Q92349	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	1318		0	False
+Q9FJW3	Arabidopsis thaliana (Mouse-ear cress)	Plants	82		0	True
+Q7Z4V0	Homo sapiens (Human)	Metazoa	828		0	False
+Q8H0U4	Arabidopsis thaliana (Mouse-ear cress)	Plants	891		0	False
+P38705	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	446		0	False
+A0A096LP01	Homo sapiens (Human)	Metazoa	95		0	True
+P58735	Mus musculus (Mouse)	Metazoa	704		0	True
+Q9UTC0	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	50		0	False
+Q8NBA8	Homo sapiens (Human)	Metazoa	298		0	False
+Q9M879	Arabidopsis thaliana (Mouse-ear cress)	Plants	396		0	False
+P12273	Homo sapiens (Human)	Metazoa	146	28.0	1	
+P35183	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	429		0	False
+P67876	Aspergillus restrictus	Fungi	176	27.0	1	
+A0A096MJY4	Rattus norvegicus (Rat)	Metazoa	473		0	False
+Q9Y252	Homo sapiens (Human)	Metazoa	685		0	False
+J9VT33	Cryptococcus neoformans (strain H99 / ATCC 208821 / CBS 10515 / FGSC 9487) (Cryptococcus neoformans var. grubii serotype A)	Fungi	1048		0	False
+P53233	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	369		0	False
+Q6K678	Oryza sativa subsp. japonica (Rice)	Plants	210		0	False
+Q6GKV1	Arabidopsis thaliana (Mouse-ear cress)	Plants	324		0	False
+Q58WW2	Homo sapiens (Human)	Metazoa	860		0	False
+Q9LU39	Arabidopsis thaliana (Mouse-ear cress)	Plants	317		0	False
+Q9SU40	Arabidopsis thaliana (Mouse-ear cress)	Plants	587	20.0	1	
+Q6ZVD7	Homo sapiens (Human)	Metazoa	989		0	False
+Q59LY1	Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast)	Fungi	422		0	False
+Q99935	Homo sapiens (Human)	Metazoa	248	21.0	1	
+P0C2B6	Bos taurus (Bovine)	Metazoa	128		0	False
+Q8N2C7	Homo sapiens (Human)	Metazoa	3258		0	False
+P05146	Spinacia oleracea (Spinach)	Plants	73		0	True
+Q12033	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	661		0	False
+P40362	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	594		0	False
+Q9H7Z3	Homo sapiens (Human)	Metazoa	1164		0	False
+P22315	Mus musculus (Mouse)	Metazoa	422		0	False
+Q10423	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	258		0	False
+Q03433	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	280		0	False
+A8MTJ6	Homo sapiens (Human)	Metazoa	420		0	False
+A0A1L6K371	Juglans nigra (Black walnut) (Wallia nigra)	Plants	510	23.0	1	
+Q9NZE8	Homo sapiens (Human)	Metazoa	188		0	False
+Q95121	Bos taurus (Bovine)	Metazoa	416	20.0	1	
+Q5PP12	Arabidopsis thaliana (Mouse-ear cress)	Plants	69	25.0	1	
+O60844	Homo sapiens (Human)	Metazoa	167	16.0	1	
+A0A1S6EK92	Moringa oleifera (Horseradish tree) (Moringa pterygosperma)	Plants	79	20.0	1	
+Q95T19	Drosophila melanogaster (Fruit fly)	Metazoa	464		0	False
+O74848	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	311		0	False
+P04062	Homo sapiens (Human)	Metazoa	536	39.0	1	
+Q8GZR2	Euglena gracilis	Other	496		0	False
+O59676	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	359		0	False
+Q8K4H1	Mus musculus (Mouse)	Metazoa	305		0	False
+P47175	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	358		0	False
+Q8IYL3	Homo sapiens (Human)	Metazoa	243		0	False
+O75592	Homo sapiens (Human)	Metazoa	4678		0	False
+Q3E7C1	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	72		0	False
+Q9GRZ3	Caenorhabditis elegans	Metazoa	1641		0	False
+P48985	Mus musculus (Mouse)	Metazoa	351		0	False
+Q9BZC1	Homo sapiens (Human)	Metazoa	486		0	False
+Q5M775	Homo sapiens (Human)	Metazoa	1068		0	False
+Q9LRI8	Spinacia oleracea (Spinach)	Plants	562		0	False
+Q53HV7	Homo sapiens (Human)	Metazoa	270		0	False
+Q9LYK7	Arabidopsis thaliana (Mouse-ear cress)	Plants	590		0	False
+Q9NUQ2	Homo sapiens (Human)	Metazoa	364		0	True
+Q9W701	Xenopus laevis (African clawed frog)	Metazoa	689		0	True
+P22027	Bos taurus (Bovine)	Metazoa	200		0	False
+Q969G3	Homo sapiens (Human)	Metazoa	411		0	False
+P14214	Tachypleus tridentatus (Japanese horseshoe crab)	Metazoa	77	23.0	1	
+Q4WF55	Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af293) (Neosartorya fumigata)	Fungi	462		0	False
+O61715	Caenorhabditis elegans	Metazoa	454		0	True
+Q9DBG9	Mus musculus (Mouse)	Metazoa	124		0	False
+Q9VC56	Drosophila melanogaster (Fruit fly)	Metazoa	3912		0	False
+Q9V3Z1	Drosophila melanogaster (Fruit fly)	Metazoa	484		0	False
+Q9Z0L3	Mus musculus (Mouse)	Metazoa	485	17.0	1	
+Q92737	Homo sapiens (Human)	Metazoa	203		0	False
+P82919	Bos taurus (Bovine)	Metazoa	196		0	False
+O13775	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	716		0	False
+Q9NJH0	Drosophila melanogaster (Fruit fly)	Metazoa	431		0	False
+Q9WVR8	Rattus norvegicus (Rat)	Metazoa	610		0	False
+Q6UXL0	Homo sapiens (Human)	Metazoa	311	29.0	1	
+P56393	Mus musculus (Mouse)	Metazoa	80		0	True
+Q8IP99	Drosophila melanogaster (Fruit fly)	Metazoa	308		0	False
+Q9LEZ1	Arabidopsis thaliana (Mouse-ear cress)	Plants	144		0	False
+Q61789	Mus musculus (Mouse)	Metazoa	3330	31.0	1	
+Q12546	Aspergillus ficuum	Fungi	614	22.0	1	
+Q53EK2	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	232		0	False
+Q9NRP7	Homo sapiens (Human)	Metazoa	1315		0	False
+O74478	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	587		0	False
+Q06623	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	655		0	False
+Q6ASS9	Oryza sativa subsp. japonica (Rice)	Plants	123		0	False
+P0CT69	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	176		0	False
+Q9LZB8	Arabidopsis thaliana (Mouse-ear cress)	Plants	634		0	True
+A0A8I5ZT12	Rattus norvegicus (Rat)	Metazoa	1484		0	False
+Q8NBS3	Homo sapiens (Human)	Metazoa	875		0	False
+Q92563	Homo sapiens (Human)	Metazoa	424	22.0	1	
+Q9Y342	Homo sapiens (Human)	Metazoa	182		0	True
+P53287	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	111		0	False
+Q99467	Homo sapiens (Human)	Metazoa	661	23.0	1	
+Q9D8H7	Mus musculus (Mouse)	Metazoa	521		0	False
+Q96GJ1	Homo sapiens (Human)	Metazoa	504		0	False
+Q96CU9	Homo sapiens (Human)	Metazoa	486		0	True
+Q9S814	Arabidopsis thaliana (Mouse-ear cress)	Plants	1294		0	True
+Q9VFS6	Drosophila melanogaster (Fruit fly)	Metazoa	994		0	False
+Q43715	Pisum sativum (Garden pea) (Lathyrus oleraceus)	Plants	809		0	False
+P53352	Gallus gallus (Chicken)	Metazoa	877		0	False
+A9UGV6	Oryza sativa subsp. japonica (Rice)	Plants	61	26.0	1	
+P82139	Spinacia oleracea (Spinach)	Plants	232		0	False
+Q80VL0	Rattus norvegicus (Rat)	Metazoa	406		0	False
+Q9Y586	Homo sapiens (Human)	Metazoa	359		0	False
+Q7S2C2	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	Fungi	119		0	False
+E9PT37	Rattus norvegicus (Rat)	Metazoa	1207		0	False
+Q6NQK2	Arabidopsis thaliana (Mouse-ear cress)	Plants	449		0	False
+O74417	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	497		0	False
+Q69IL4	Oryza sativa subsp. japonica (Rice)	Plants	380		0	False
+Q9HE02	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	1185		0	False
+Q8GT74	Arabidopsis thaliana (Mouse-ear cress)	Plants	241		0	True
+Q9TY84	Crithidia fasciculata	Other	130		0	False
+Q24478	Drosophila melanogaster (Fruit fly)	Metazoa	1096		0	False
+Q9JHU6	Rattus norvegicus (Rat)	Metazoa	180		0	False
+Q53GL7	Homo sapiens (Human)	Metazoa	1025		0	False
+Q8TB37	Homo sapiens (Human)	Metazoa	319		0	False
+P52566	Homo sapiens (Human)	Metazoa	201		0	False
+Q98TA5	Xenopus laevis (African clawed frog)	Metazoa	896		0	False
+P32337	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1089		0	False
+P41930	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	458		0	True
+Q08202	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	246		0	False
+A8J785	Chlamydomonas reinhardtii (Chlamydomonas smithii)	Plants	209		0	True
+Q9NGX9	Drosophila melanogaster (Fruit fly)	Metazoa	489		0	False
+Q9UTI3	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	177		0	False
+Q9BV86	Homo sapiens (Human)	Metazoa	223		0	False
+Q8I6Z7	Plasmodium falciparum (isolate 3D7)	Other	1139		0	False
+A1ZAK1	Drosophila melanogaster (Fruit fly)	Metazoa	1007		0	False
+Q9Y228	Homo sapiens (Human)	Metazoa	551		0	False
+Q96NT5	Homo sapiens (Human)	Metazoa	459		0	True
+Q5TAX3	Homo sapiens (Human)	Metazoa	1644		0	False
+F4ISV6	Arabidopsis thaliana (Mouse-ear cress)	Plants	537		0	False
+Q8IXI2	Homo sapiens (Human)	Metazoa	618		0	False
+Q05344	Drosophila melanogaster (Fruit fly)	Metazoa	723		0	False
+P82673	Homo sapiens (Human)	Metazoa	323		0	False
+Q6ZRQ5	Homo sapiens (Human)	Metazoa	1243		0	False
+Q84JG2	Arabidopsis thaliana (Mouse-ear cress)	Plants	469		0	False
+Q8W4L5	Arabidopsis thaliana (Mouse-ear cress)	Plants	790		0	False
+F4IV16	Arabidopsis thaliana (Mouse-ear cress)	Plants	267		0	False
+P02462	Homo sapiens (Human)	Metazoa	1669	27.0	1	
+Q6NZN1	Mus musculus (Mouse)	Metazoa	1644		0	False
+P25116	Homo sapiens (Human)	Metazoa	425	21.0	1	
+Q8IVP5	Homo sapiens (Human)	Metazoa	155		0	True
+P56829	Ovis aries (Sheep)	Metazoa	195	23.0	1	
+Q66GT5	Mus musculus (Mouse)	Metazoa	193		0	False
+P14284	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1504		0	False
+Q9CQ75	Mus musculus (Mouse)	Metazoa	99		0	False
+Q17TI5	Arabidopsis thaliana (Mouse-ear cress)	Plants	344		0	False
+P33203	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	583		0	False
+P34283	Caenorhabditis elegans	Metazoa	442		0	False
+P42847	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	217		0	False
+Q00403	Homo sapiens (Human)	Metazoa	316		0	False
+Q8NDL9	Homo sapiens (Human)	Metazoa	886		0	False
+Q08457	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	257		0	False
+Q9Y808	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	1063		0	False
+Q5SWT3	Mus musculus (Mouse)	Metazoa	300		0	True
+Q07418	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	342		0	False
+Q9BZG8	Homo sapiens (Human)	Metazoa	438		0	False
+Q6K431	Oryza sativa subsp. japonica (Rice)	Plants	1022		0	False
+P15450	Apis mellifera (Honeybee)	Metazoa	53	19.0	1	
+P53254	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1237		0	False
+Q96BY2	Homo sapiens (Human)	Metazoa	351		0	False
+Q9ZST4	Arabidopsis thaliana (Mouse-ear cress)	Plants	196		0	False
+O80990	Arabidopsis thaliana (Mouse-ear cress)	Plants	352		0	False
+F4IN23	Arabidopsis thaliana (Mouse-ear cress)	Plants	321		0	False
+Q03661	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1658		0	False
+Q9Y3B8	Homo sapiens (Human)	Metazoa	237		0	False
+Q9CZD3	Mus musculus (Mouse)	Metazoa	729		0	False
+Q92353	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	468		0	False
+Q925F4	Mus musculus (Mouse)	Metazoa	539		0	False
+Q27270	Tenebrio molitor (Yellow mealworm beetle)	Metazoa	96	18.0	1	
+Q95RV2	Drosophila melanogaster (Fruit fly)	Metazoa	345		0	False
+A1XCI9	Fusarium culmorum	Fungi	191	18.0	1	
+Q8LFC0	Arabidopsis thaliana (Mouse-ear cress)	Plants	367		0	False
+F4IDJ0	Arabidopsis thaliana (Mouse-ear cress)	Plants	830		0	False
+Q9H7T9	Homo sapiens (Human)	Metazoa	357		0	False
+P0DPV0	Scolopendra dehaani (Thai centipede) (Scolopendra subspinipes dehaani)	Metazoa	101	23.0	1	
+Q1ACB3	Arabidopsis thaliana (Mouse-ear cress)	Plants	386		0	False
+Q96BY6	Homo sapiens (Human)	Metazoa	2186		0	False
+P49720	Homo sapiens (Human)	Metazoa	205		0	False
+Q94CV1	Oryza sativa subsp. japonica (Rice)	Plants	228		0	False
+Q9P7C8	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	214		0	False
+Q8GXJ1	Arabidopsis thaliana (Mouse-ear cress)	Plants	552		0	False
+P52891	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	726		0	False
+O02073	Caenorhabditis elegans	Metazoa	376		0	False
+Q96D46	Homo sapiens (Human)	Metazoa	503		0	False
+Q18508	Caenorhabditis elegans	Metazoa	1784		0	False
+O13688	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	522		0	False
+Q3ZCG2	Bos taurus (Bovine)	Metazoa	109		0	True
+P29461	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	750		0	False
+Q9VHJ6	Drosophila melanogaster (Fruit fly)	Metazoa	592		0	False
+O60393	Homo sapiens (Human)	Metazoa	691		0	False
+Q14203	Homo sapiens (Human)	Metazoa	1278		0	False
+P48819	Sus scrofa (Pig)	Metazoa	459	19.0	1	
+P23503	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	491		0	False
+O74399	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	740		0	False
+P32785	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	401		0	False
+Q86UD0	Homo sapiens (Human)	Metazoa	394		0	False
+Q7XZF5	Arabidopsis thaliana (Mouse-ear cress)	Plants	1841		0	False
+Q0WP44	Arabidopsis thaliana (Mouse-ear cress)	Plants	1202		0	False
+P49256	Canis lupus familiaris (Dog) (Canis familiaris)	Metazoa	356	44.0	1	
+O89050	Mus musculus (Mouse)	Metazoa	735		0	False
+P46062	Mus musculus (Mouse)	Metazoa	1037		0	False
+Q8C5Y2	Mus musculus (Mouse)	Metazoa	53		0	True
+Q9M0A5	Arabidopsis thaliana (Mouse-ear cress)	Plants	249		0	False
+Q8VC49	Mus musculus (Mouse)	Metazoa	283		0	False
+Q9Y5L0	Homo sapiens (Human)	Metazoa	923		0	False
+Q09228	Caenorhabditis elegans	Metazoa	1129		0	False
+Q69ZQ1	Mus musculus (Mouse)	Metazoa	716		0	True
+Q9XYT4	Cryptorchestia cavimana (Amphipod) (Orchestia cavimana)	Metazoa	128	20.0	1	
+G5ECD9	Caenorhabditis elegans	Metazoa	321		0	True
+Q9UGI0	Homo sapiens (Human)	Metazoa	708		0	False
+P57088	Homo sapiens (Human)	Metazoa	247		0	True
+P53276	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	713		0	False
+Q12179	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	454		0	False
+Q9VUF8	Drosophila melanogaster (Fruit fly)	Metazoa	540		0	False
+Q01965	Mus musculus (Mouse)	Metazoa	654	47.0	1	
+Q9SIY3	Arabidopsis thaliana (Mouse-ear cress)	Plants	210		0	False
+Q60415	Cricetulus griseus (Chinese hamster) (Cricetulus barabensis griseus)	Metazoa	299		0	False
+Q9P7S9	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	194		0	False
+Q8IW03	Homo sapiens (Human)	Metazoa	269		0	False
+Q584U2	Trypanosoma brucei brucei (strain 927/4 GUTat10.1)	Other	267		0	False
+Q8TC92	Homo sapiens (Human)	Metazoa	643		0	False
+Q96P68	Homo sapiens (Human)	Metazoa	337		0	True
+Q22812	Caenorhabditis elegans	Metazoa	399		0	False
+P13002	Drosophila melanogaster (Fruit fly)	Metazoa	1333		0	False
+Q56Y52	Arabidopsis thaliana (Mouse-ear cress)	Plants	467		0	False
+H9A1V3	Cannabis sativa (Hemp) (Marijuana)	Plants	720		0	False
+Q12768	Homo sapiens (Human)	Metazoa	1159		0	False
+Q75WF1	Vanrija humicola (Yeast) (Cryptococcus humicola)	Fungi	370		0	False
+Q96LL9	Homo sapiens (Human)	Metazoa	226		0	False
+Q8W257	Ptilota filicina (Red alga)	Other	500	21.0	1	
+P80356	Avena sativa (Oat)	Plants	220	19.0	1	
+Q6ZQX7	Homo sapiens (Human)	Metazoa	453		0	False
+Q96HA9	Homo sapiens (Human)	Metazoa	241		0	False
+Q9UHW5	Homo sapiens (Human)	Metazoa	284		0	False
+Q9Y7Q7	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	973		0	False
+O88466	Mus musculus (Mouse)	Metazoa	1888		0	False
+Q96FI4	Homo sapiens (Human)	Metazoa	390		0	False
+P83234	Ophiophagus hannah (King cobra) (Naja hannah)	Metazoa	190	20.0	1	
+Q5AJU7	Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast)	Fungi	499		0	False
+P82925	Bos taurus (Bovine)	Metazoa	386		0	False
+Q8BHN1	Mus musculus (Mouse)	Metazoa	524		0	False
+Q8N6C8	Homo sapiens (Human)	Metazoa	439	23.0	1	
+Q94CE5	Arabidopsis thaliana (Mouse-ear cress)	Plants	504		0	False
+Q9M1E7	Arabidopsis thaliana (Mouse-ear cress)	Plants	285		0	True
+Q8NI27	Homo sapiens (Human)	Metazoa	1593		0	False
+O94614	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	633		0	False
+Q9Y5B0	Homo sapiens (Human)	Metazoa	961		0	False
+Q9ES58	Rattus norvegicus (Rat)	Metazoa	327	23.0	1	
+Q9H078	Homo sapiens (Human)	Metazoa	707		0	False
+Q7X7A4	Oryza sativa subsp. japonica (Rice)	Plants	475		0	False
+Q9SSA5	Arabidopsis thaliana (Mouse-ear cress)	Plants	437		0	False
+P04038	Bos taurus (Bovine)	Metazoa	74		0	True
+Q32SG5	Zea mays (Maize)	Plants	616		0	False
+Q60674	Mus musculus (Mouse)	Metazoa	576		0	False
+P87017	Aspergillus parasiticus (strain ATCC 56775 / NRRL 5862 / SRRC 143 / SU-1)	Fungi	278		0	False
+Q03281	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	663		0	False
+Q9Y279	Homo sapiens (Human)	Metazoa	399	19.0	1	
+Q9SHE8	Arabidopsis thaliana (Mouse-ear cress)	Plants	221		0	False
+Q13950	Homo sapiens (Human)	Metazoa	521		0	False
+Q9UIL1	Homo sapiens (Human)	Metazoa	159		0	False
+O95866	Homo sapiens (Human)	Metazoa	241	17.0	1	
+Q94A41	Arabidopsis thaliana (Mouse-ear cress)	Plants	887		0	False
+S7VVK4	Toxoplasma gondii (strain ATCC 50853 / GT1)	Other	4367		0	False
+Q04491	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	297		0	False
+P01033	Homo sapiens (Human)	Metazoa	207	23.0	1	
+P18583	Homo sapiens (Human)	Metazoa	2426		0	False
+P92276	Chlamydomonas reinhardtii (Chlamydomonas smithii)	Plants	62		0	True
+Q6UVM4	Rattus norvegicus (Rat)	Metazoa	1142		0	True
+Q6PJP8	Homo sapiens (Human)	Metazoa	1040		0	False
+Q9P797	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	1142		0	False
+Q9CQH3	Mus musculus (Mouse)	Metazoa	189		0	True
+Q9VJQ5	Drosophila melanogaster (Fruit fly)	Metazoa	183		0	False
+Q9VW51	Drosophila melanogaster (Fruit fly)	Metazoa	1059		0	False
+Q12363	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	437		0	False
+Q9FYB5	Arabidopsis thaliana (Mouse-ear cress)	Plants	161		0	False
+O74778	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	284		0	False
+Q23272	Caenorhabditis elegans	Metazoa	488		0	False
+P49916	Homo sapiens (Human)	Metazoa	1009		0	False
+Q9SZH4	Arabidopsis thaliana (Mouse-ear cress)	Plants	495		0	False
+O14894	Homo sapiens (Human)	Metazoa	197		0	True
+Q9SAC6	Arabidopsis thaliana (Mouse-ear cress)	Plants	1399		0	False
+P04552	Haliotis rufescens (California red abalone)	Metazoa	154	18.0	1	
+P36168	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1195		0	False
+Q9BT43	Homo sapiens (Human)	Metazoa	218		0	False
+B7Z0X7	Drosophila melanogaster (Fruit fly)	Metazoa	61		0	True
+Q9CQY9	Mus musculus (Mouse)	Metazoa	76		0	True
+P0DUS6	Doratifera vulnerans (Mottled cup moth)	Metazoa	60	24.0	1	
+Q07458	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	294		0	False
+Q6UWI2	Homo sapiens (Human)	Metazoa	310	20.0	1	
+Q18184	Caenorhabditis elegans	Metazoa	89	23.0	1	
+Q9JIX9	Mus musculus (Mouse)	Metazoa	511		0	False
+P16658	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	377		0	False
+Q9HFE6	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	478		0	False
+P22469	Drosophila melanogaster (Fruit fly)	Metazoa	90		0	False
+Q9FI46	Arabidopsis thaliana (Mouse-ear cress)	Plants	269		0	True
+Q6S5G3	Arabidopsis thaliana (Mouse-ear cress)	Plants	793		0	False
+P35728	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	441		0	False
+P38909	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	366		0	False
+Q86TG1	Homo sapiens (Human)	Metazoa	271		0	True
+O94326	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	609		0	False
+Q96PH1	Homo sapiens (Human)	Metazoa	765		0	False
+Q0WVF8	Arabidopsis thaliana (Mouse-ear cress)	Plants	1134		0	False
+P87234	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	635		0	False
+P53203	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	462		0	False
+Q12467	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	430		0	False
+Q9SX77	Arabidopsis thaliana (Mouse-ear cress)	Plants	257		0	False
+Q9NV06	Homo sapiens (Human)	Metazoa	445		0	False
+O65312	Arabidopsis thaliana (Mouse-ear cress)	Plants	689		0	False
+Q08058	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	207		0	False
+Q50KB1	Emiliania huxleyi (Coccolithophore) (Pontosphaera huxleyi)	Other	223	17.0	1	
+Q6TA49	Sus scrofa (Pig)	Metazoa	289		0	True
+Q9UL49	Homo sapiens (Human)	Metazoa	500		0	False
+Q5M755	Arabidopsis thaliana (Mouse-ear cress)	Plants	273		0	False
+Q9Y2X0	Homo sapiens (Human)	Metazoa	877		0	False
+O43561	Homo sapiens (Human)	Metazoa	262		0	True
+O35387	Mus musculus (Mouse)	Metazoa	280		0	False
+Q8N5I2	Homo sapiens (Human)	Metazoa	433		0	False
+Q9Y3P9	Homo sapiens (Human)	Metazoa	1069		0	False
+Q15365	Homo sapiens (Human)	Metazoa	356		0	False
+Q8VY52	Arabidopsis thaliana (Mouse-ear cress)	Plants	232		0	False
+O74361	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	356		0	False
+P16144	Homo sapiens (Human)	Metazoa	1822	27.0	1	
+B9DHG0	Arabidopsis thaliana (Mouse-ear cress)	Plants	301		0	True
+Q8CJF7	Mus musculus (Mouse)	Metazoa	2243		0	False
+Q1K6U7	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	Fungi	225		0	False
+Q9W252	Drosophila melanogaster (Fruit fly)	Metazoa	1318		0	False
+Q1K8V2	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	Fungi	91		0	False
+P70582	Rattus norvegicus (Rat)	Metazoa	510		0	False
+P21145	Homo sapiens (Human)	Metazoa	153		0	True
+Q550D5	Dictyostelium discoideum (Social amoeba)	Other	872		0	False
+Q1K699	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	Fungi	303		0	False
+Q9UUE5	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	675		0	False
+Q8J0K5	Talaromyces funiculosus (Fruitlet core rot fungus) (Penicillium funiculosum)	Fungi	282	39.0	1	
+P31608	Sagittaria sagittifolia (Arrowhead)	Plants	181	24.0	1	
+Q9LD83	Arabidopsis thaliana (Mouse-ear cress)	Plants	556		0	False
+P57744	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	87		0	False
+Q62674	Rattus norvegicus (Rat)	Metazoa	648		0	True
+Q9BSH3	Homo sapiens (Human)	Metazoa	213		0	False
+Q80ZQ9	Mus musculus (Mouse)	Metazoa	193		0	False
+P0DMD3	Scolopendra mutilans (Chinese red-headed centipede) (Scolopendra subspinipes mutilans)	Metazoa	105	21.0	1	
+Q9QYH6	Mus musculus (Mouse)	Metazoa	775		0	False
+Q9FIX1	Arabidopsis thaliana (Mouse-ear cress)	Plants	172		0	False
+P55081	Homo sapiens (Human)	Metazoa	439		0	False
+Q08952	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	273		0	False
+Q9NWH2	Homo sapiens (Human)	Metazoa	141		0	True
+Q9S757	Arabidopsis thaliana (Mouse-ear cress)	Plants	368		0	False
+B7Z0L8	Drosophila melanogaster (Fruit fly)	Metazoa	178		0	False
+Q498E2	Rattus norvegicus (Rat)	Metazoa	182		0	False
+G8YYA5	Androctonus amoreuxi (African fattail scorpion) (Scorpio amoreuxi)	Metazoa	74	22.0	1	
+P38360	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	1216		0	False
+Q6PFD5	Mus musculus (Mouse)	Metazoa	977		0	False
+Q55GJ6	Dictyostelium discoideum (Social amoeba)	Other	214		0	False
+P33759	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	307		0	False
+O13722	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	450		0	False
+Q9SRN4	Arabidopsis thaliana (Mouse-ear cress)	Plants	117		0	False
+P0DPG3	Trypanosoma brucei brucei	Other	75		0	False
+P81160	Drosophila melanogaster (Fruit fly)	Metazoa	54	21.0	1	
+P18887	Homo sapiens (Human)	Metazoa	633		0	False
+P42845	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	420		0	False
+Q8T0Y7	Aplysia californica (California sea hare)	Metazoa	141	26.0	1	
+Q86WR6	Homo sapiens (Human)	Metazoa	236		0	False
+Q7Z418	Homo sapiens (Human)	Metazoa	384		0	True
+P50077	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	2039		0	False
+P22980	Caenorhabditis elegans	Metazoa	324		0	False
+Q940H2	Arabidopsis thaliana (Mouse-ear cress)	Plants	237		0	False
+P19440	Homo sapiens (Human)	Metazoa	569		0	True
+P14209	Homo sapiens (Human)	Metazoa	185	22.0	1	
+P28335	Homo sapiens (Human)	Metazoa	458	32.0	1	
+Q9D7K5	Mus musculus (Mouse)	Metazoa	258		0	False
+Q93008	Homo sapiens (Human)	Metazoa	2554		0	False
+P87310	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	144		0	False
+Q9JIQ3	Mus musculus (Mouse)	Metazoa	237		0	False
+Q6NKS4	Arabidopsis thaliana (Mouse-ear cress)	Plants	258		0	False
+Q21738	Caenorhabditis elegans	Metazoa	335		0	False
+Q9SII9	Arabidopsis thaliana (Mouse-ear cress)	Plants	538		0	False
+P02774	Homo sapiens (Human)	Metazoa	474	16.0	1	
+Q9CPR8	Mus musculus (Mouse)	Metazoa	279		0	False
+Q0WNB1	Arabidopsis thaliana (Mouse-ear cress)	Plants	243		0	False
+Q09814	Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)	Fungi	239		0	False
+P38771	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	230		0	False
+P22388	Rattus norvegicus (Rat)	Metazoa	202	25.0	1	
+P28319	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	239	20.0	1	
+Q9LS48	Arabidopsis thaliana (Mouse-ear cress)	Plants	316		0	False
+Q3E823	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	68		0	False
+D6VTK4	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	431		0	True
+Q99J99	Mus musculus (Mouse)	Metazoa	297		0	False
+Q9LJ87	Arabidopsis thaliana (Mouse-ear cress)	Plants	415		0	False
+Q9HAJ7	Homo sapiens (Human)	Metazoa	183		0	False
+P10676	Drosophila melanogaster (Fruit fly)	Metazoa	1501		0	False
+Q9NAX4	Dictyostelium discoideum (Social amoeba)	Other	464	17.0	1	
+P53866	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Fungi	767		0	False
+Q8WXW3	Homo sapiens (Human)	Metazoa	757		0	False
+Q9Y253	Homo sapiens (Human)	Metazoa	713		0	False

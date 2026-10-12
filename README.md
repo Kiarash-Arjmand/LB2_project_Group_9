@@ -4,116 +4,53 @@ This project compares two methods for predicting secretory signal peptides in eu
 
 ## Progress
 
-Data collection and annotation filtering are complete. The filtering scripts and processed datasets have been uploaded to the group repository.
+Data collection, annotation filtering, sequence redundancy reduction (using MMseqs2), train/benchmark dataset splits, and statistical dataset analyses are complete.
 
-The current dataset contains **2,956 positive proteins** and **16,852 negative proteins**. These counts are before sequence clustering. Redundancy reduction, training/test splits, data analysis, and predictor development are still pending.
+The preliminary dataset contained 2,956 positive proteins and 16,852 negative proteins. Following sequence clustering with MMseqs2 (using 30% sequence identity and 40% alignment coverage), the non-redundant dataset comprises **1,104 positive proteins** and **8,113 negative proteins**.
+
+The non-redundant data have been randomly split into an 80% training set (with 5-fold cross-validation fold assignments) and a 20% holdout benchmarking set. Descriptive visualizations (length distributions, taxonomy, and cleavage site logos) have been generated and saved to `figures/`. Predictor development (von Heijne PSWM and SVM feature extraction) is pending.
 
 ## Files
 
-All paths are relative to the repository root. The two filtering scripts are at the root, beside `data/`.
+All paths are relative to the repository root.
 
 | File or folder | Contents |
-| --- | --- |
+| :--- | :--- |
 | `filter_positives.py` | Positive annotation filtering and output preparation. |
 | `filter_negatives.py` | Negative annotation filtering and output preparation. |
-| `data/raw/positive_candidates.tsv` | Original positive candidate annotations. |
-| `data/raw/positive_candidates.fasta` | Original positive candidate sequences. |
-| `data/raw/positive_candidates_lineage.tsv` | Positive annotations with taxonomic lineage. |
-| `data/raw/negative_candidates.tsv` | Original negative candidate annotations. |
-| `data/processed/positive.tsv` | Metadata for retained positive proteins. |
-| `data/processed/positive_filtered.fasta` | Full canonical sequences of retained positive proteins. |
-| `data/processed/negative.tsv` | Metadata for retained negative proteins. |
-| `data/processed/negative_filtered.fasta` | Full canonical sequences of retained negative proteins. |
-| `data/processed/positive_filtered_annotations.tsv` | Detailed annotations for retained positives. |
-| `data/processed/positive_excluded_annotations.tsv` | Positive annotations excluded during filtering. |
-| `data/processed/negative_filtered_annotations.tsv` | Detailed annotations for retained negatives. |
-| `data/processed/negative_accessions.txt` | Negative accession list used to retrieve sequences. |
-| `data/splits/` | Reserved for training, benchmark, and fold assignments; not generated yet. |
-| `src/`, `notebooks/`, `figures/` | Reserved for subsequent code, analyses, and figures. |
+| `src/preprocessing.py` | MMseqs2 parsing, non-redundant dataset construction, 80/20 train/benchmark splitting, and 5-fold cross-validation fold assignment. |
+| `src/visualization.py` | Data analysis plotting script generating length distributions, taxonomic counts, and cleavage site window extractions. |
+| `data/raw/` | Original candidate annotations and fasta downloads from UniProtKB. |
+| `data/processed/` | Retained positive/negative proteins, annotation logs, and MMseqs2 clustering output files (`pos_clustered_*`, `neg_clustered_*`). |
+| `data/splits/train.tsv` | Non-redundant training metadata (80%) including `cv_fold` (0–4) column assignments. |
+| `data/splits/benchmark.tsv` | Non-redundant independent benchmarking metadata (20%). |
+| `data/splits/*.fasta` | Corresponding positive and negative sequence fasta files for training and benchmark splits. |
+| `figures/` | Saved statistical plots (`*_sp_length_distribution.png`, `*_protein_length_comparison.png`, `*_kingdom_distribution.png`) and the cleavage site sequence logo (`cleavage_site_logo.png`). |
+| `notebooks/` | Reserved for subsequent exploratory code and model evaluation notebooks. |
 
-## Data collection
+## Data Collection
 
-The candidate data were downloaded from **UniProtKB/Swiss-Prot on 6 October 2026**. The release identifier was not recorded, so repeating the searches on a later release may give different counts.
+The candidate data were downloaded from UniProtKB/Swiss-Prot on 6 October 2026. Both searches select reviewed eukaryotic proteins (taxonomy ID 2759), exclude fragments, require a sequence length of at least 40 residues, and require evidence at protein level (existence:1).
 
-Both searches select reviewed eukaryotic proteins (taxonomy ID 2759), exclude fragments, require a sequence length of at least 40 residues, and require evidence at protein level (`existence:1`).
+### Filtering & Redundancy Reduction Results
 
-### Positive proteins
+| Dataset | Candidates | Retained (Part A) | Non-Redundant (MMseqs2 Reps) |
+| :--- | :--- | :--- | :--- |
+| **Positive** | 2,972 | 2,956 | **1,104** |
+| **Negative** | 66,172 | 16,852 | **8,113** |
 
-Search query:
+### Dataset Splits (80% Train / 20% Benchmark)
 
-```text
-(reviewed:true) AND (taxonomy_id:2759) AND (fragment:false) AND (length:[40 TO *]) AND (existence:1) AND (ft_signal_exp:*)
-```
+| Split | Positives | Negatives | Total |
+| :--- | :--- | :--- | :--- |
+| **Training Set (80%)** | 883 | 6,490 | 7,373 |
+| **Benchmarking Set (20%)** | 221 | 1,623 | 1,844 |
+| **Total Non-Redundant** | **1,104** | **8,113** | **9,217** |
 
-The positive filter retains signal peptides with experimental evidence (`ECO:0000269`) that start at residue 1 and have a known end position of at least 14. Features with unknown cleavage positions or a “not cleaved” annotation are excluded.
+## Next Steps
 
-The `cleavage_site` value is the last residue of the signal peptide: cleavage occurs immediately after it.
-
-### Negative proteins
-
-Search query:
-
-```text
-(reviewed:true) AND (taxonomy_id:2759) AND (fragment:false) AND (length:[40 TO *]) AND (existence:1) AND NOT (ft_signal:*)
-```
-
-The negative filter retains proteins with experimentally supported localization (`ECO:0000269`) in the cytosol, nucleus, mitochondrion, plastid, peroxisome, or cell membrane. The evidence must apply to the relevant location statement. “Cytoplasm” alone does not meet the cytosol criterion.
-
-Canonical negative sequences were retrieved through UniProt ID Mapping using `negative_accessions.txt`.
-
-### Taxonomic groups
-
-Taxonomic lineage is mapped to four groups: Metazoa, Fungi, Plants (Viridiplantae), and Other.
-
-## Filtering results
-
-| Dataset | Candidates | Retained | Excluded |
-| --- | ---: | ---: | ---: |
-| Positive | 2,972 | 2,956 | 16 |
-| Negative | 66,172 | 16,852 | 49,320 |
-
-| Group | Positive | Negative |
-| --- | ---: | ---: |
-| Metazoa | 2,440 | 9,985 |
-| Fungi | 167 | 3,100 |
-| Plants | 312 | 3,513 |
-| Other | 37 | 254 |
-| Total | 2,956 | 16,852 |
-
-## Output format
-
-Both metadata files are tab-separated and include a header row.
-
-| File | Columns, in order |
-| --- | --- |
-| `positive.tsv` | `accession`, `organism`, `kingdom`, `protein_length`, `cleavage_site` |
-| `negative.tsv` | `accession`, `organism`, `kingdom`, `protein_length`, `tm_helix_first_90` |
-
-In the negative table, `tm_helix_first_90` is `true` when an annotated helical transmembrane segment or signal anchor starts within residues 1–90, inclusive. The filter uses canonical-sequence coordinates, ignores isoform-prefixed features, and excludes beta-stranded segments. A known start can be used even when the end position is unknown.
-
-There are **1,959** negatives flagged `true` and **14,893** flagged `false`. A `false` value means that no qualifying feature was found in the annotations.
-
-## Checks completed
-
-- Each metadata table and its corresponding FASTA contain the same unique accession IDs.
-- Sequence lengths match the metadata in both classes.
-- Positive cleavage positions are at least 14 and below the full sequence length.
-- The negative table has five columns with no blank fields; taxonomic groups and transmembrane flags match the filtering rules.
-- No accession appears in both classes.
-
-Sequence similarity has not yet been assessed. These files are the inputs to redundancy reduction, not the final training and benchmark datasets.
-
-## Running the filters
-
-The filtering scripts use Python's standard library; no additional packages are needed for this step. Place the input files in `data/raw/`, then run these commands from the repository root:
-
-```bash
-python filter_positives.py
-python filter_negatives.py
-```
-
-Running the scripts regenerates their output files. Negative sequence retrieval is a separate step: map the IDs in `data/processed/negative_accessions.txt` from UniProtKB AC/ID to UniProtKB, download canonical FASTA sequences, and save them as `data/processed/negative_filtered.fasta`.
-
-## Next steps
-
-Reduce sequence redundancy with MMseqs2, select representative proteins, and create the training/benchmark split and cross-validation folds. Dataset analysis and implementation of the von Heijne and SVM methods will follow. Commands, parameters, and results will be documented as each stage is completed.
+1. **Feature Extraction**: Extract amino acid composition, physicochemical properties, and position-specific sliding windows around the N-terminus.
+2. **Model Implementation**:
+   - Build von Heijne's Position-Specific Weight Matrix (PSWM) using cleavage site context $[-13, +2]$.
+   - Train and tune a Support Vector Machine (SVM) classifier on the 5-fold cross-validation training set.
+3. **Evaluation**: Compare cross-validation and benchmarking metrics (Accuracy, Precision, Recall, MCC, F1-score) between both predictors.
