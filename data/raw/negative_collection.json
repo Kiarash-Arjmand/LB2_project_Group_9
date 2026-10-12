@@ -1,0 +1,26 @@
+{
+  "collected_utc": "2026-10-12T16:04:07.304840+00:00",
+  "uniprot_release": "2026_03",
+  "uniprot_release_date": "02-September-2026",
+  "query": "reviewed:true AND taxonomy_id:2759 AND fragment:false AND length:[40 TO *] AND existence:1 AND NOT ft_signal:* AND (cc_scl_term_exp:SL-0091 OR cc_scl_term_exp:SL-0191 OR cc_scl_term_exp:SL-0173 OR cc_scl_term_exp:SL-0209 OR cc_scl_term_exp:SL-0204 OR cc_scl_term_exp:SL-0039)",
+  "export_fields": "accession,reviewed,id,protein_name,gene_names,organism_name,length,ft_signal,lineage,cc_subcellular_location,ft_transmem,protein_existence,fragment",
+  "locations": {
+    "cytosol": "SL-0091",
+    "nucleus": "SL-0191",
+    "mitochondrion": "SL-0173",
+    "plastid": "SL-0209",
+    "peroxisome": "SL-0204",
+    "cell membrane": "SL-0039"
+  },
+  "search_result_count": 20974,
+  "accession_set_source": "UniProtKB search endpoint, complete pagination (42 pages)",
+  "accession_set_sha256": "7c8fa9f9914528b3568ddb4b9b979f51e663a6a52cc2c16e2075821b0159bc14",
+  "sha256": {
+    "negative_candidates.tsv": "e373144421e12ef92f30b2f7136a0565b3b62e59fa56d0ca39d5095828a76c5e",
+    "negative_candidates.fasta": "fa2794cb09c0a0226862dc90128f95da2f0f3c8e5f7f79a5c809c8232eb194ed"
+  },
+  "stream_accessions_outside_search": [
+    "A0A1E3P8S6"
+  ],
+  "note": "Bulk exports were reconciled to the complete search result set, without a count cap or manual accession selection."
+}
