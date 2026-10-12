@@ -16,3 +16,5 @@ data/raw/*
 .env
 venv/
 env/
+tmp_pos/
+tmp_neg/
