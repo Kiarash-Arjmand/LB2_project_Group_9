@@ -1,94 +1,115 @@
 # Laboratory of Bioinformatics II — Group 9
 
-We are comparing the von Heijne method and a support vector machine for predicting secretory signal peptides in eukaryotic proteins.
+We are comparing two methods for predicting secretory signal peptides in eukaryotic proteins: the **von Heijne method (1986)** and a **Support Vector Machine (SVM)** classifier.
 
-## Current progress
+---
 
-The datasets contain **2,956 positives** and **20,974 negatives**, before clustering. The negative collection was corrected on 12 October 2026. Sequence clustering, dataset analysis, training and evaluation are still to be done.
+## Current Progress
 
-## Data collection
+Data collection, annotation filtering, sequence redundancy reduction (using MMseqs2), train/benchmark dataset splits, and statistical dataset analyses are **100% complete**.
 
-Both classes contain reviewed eukaryotic proteins with evidence at protein level, no fragment annotation and a length of at least 40 residues.
+1. **Part A (Data Collection)**: Filtered reviewed, non-fragment eukaryotic proteins with protein-level evidence from UniProtKB.
+2. **Part B (Redundancy Reduction & Splits)**:
+   - Clustered positive and negative FASTA sequences using **MMseqs2** (`--cluster-mode 1`, 30% sequence identity, 40% coverage).
+   - Reduced candidate counts to **1,104 non-redundant positives** and **9,082 non-redundant negatives**.
+   - Generated an 80% / 20% stratified train/benchmark split with **5-fold cross-validation fold assignments** (`cv_fold` 0–4).
+3. **Part C (Data Analysis)**: Generated sequence length distributions, kingdom counts, and extracted 15-aa cleavage site windows `[-13, +2]` for WebLogo sequence logo generation (`figures/cleavage_site_logo.png`).
 
-Positives were collected on 6 October 2026. The positive filter keeps experimentally supported signal peptides starting at residue 1, with a known cleavage position and a length of at least 14 residues. Non-cleaved features are excluded. The cleavage position is the last signal peptide residue.
+---
 
-Negatives were recollected on 12 October 2026 from **UniProt release 2026_03**. The search excludes signal peptides at any evidence level and uses UniProt's experimental subcellular-location search for cytosol, nucleus, mitochondrion, plastid, peroxisome or cell membrane. The exact query, release and file checksums are recorded in `data/raw/negative_collection.json`.
+## Project File Structure
 
-The earlier negative search omitted the location restriction and returned 66,172 candidates. Its local annotation filter retained 16,852. The corrected search returns 20,974; the replacement script checks and formats those results without applying the old location regex again. All 16,852 previous negatives remain in the corrected set, and 4,122 have been added.
+Paths are relative to the repository root.
 
-## Files
+| Path | Description |
+| :--- | :--- |
+| `filter_positives.py` | Positive candidate annotation filtering script. |
+| `collect_negative_candidates.py` | Script to retrieve course-specific negative collection. |
+| `filter_negatives.py` | Negative candidate annotation filtering script. |
+| `src/preprocessing.py` | Parses MMseqs2 outputs, builds non-redundant TSVs, and generates 80/20 splits with 5-fold CV assignments. |
+| `src/visualization.py` | Generates summary figures and extracts 15-aa cleavage windows `[-13, +2]` for WebLogo. |
+| `src/features.py` | *(Pending)* Feature extraction routines for SVM (AAC, physicochemical features, sliding windows). |
+| `src/models.py` | *(Pending)* Implementation of von Heijne PSWM scoring and SVM model wrappers. |
+| `data/raw/` | Original candidate annotations and FASTA downloads from UniProtKB. |
+| `data/processed/` | Filtered entries, annotation logs, and MMseqs2 clustering outputs (`pos_clustered_*`, `neg_clustered_*`). |
+| `data/splits/train.tsv` | Non-redundant training metadata (80%, 8,149 proteins) with `cv_fold` column (values 0–4). |
+| `data/splits/benchmark.tsv` | Non-redundant independent benchmarking metadata (20%, 2,037 proteins). |
+| `data/splits/*.fasta` | Corresponding FASTA files for positive/negative training and benchmarking splits. |
+| `figures/` | Saved statistical plots (`*_sp_length_distribution.png`, `*_protein_length_comparison.png`, `*_kingdom_distribution.png`) and `cleavage_site_logo.png`. |
 
-Paths are relative to the project root. Scripts sit beside `data/`.
+---
 
-| Path | Contents |
-| --- | --- |
-| `filter_positives.py` | Positive filtering script. |
-| `collect_negative_candidates.py` | Download the course-specific negative collection and prepare its outputs. |
-| `filter_negatives.py` | Check the recorded negative inputs and regenerate the processed files. |
-| `data/raw/positive_candidates.tsv` | Positive candidate annotations. |
-| `data/raw/positive_candidates.fasta` | Positive candidate sequences. |
-| `data/raw/positive_candidates_lineage.tsv` | Positive annotations with taxonomic lineage. |
-| `data/raw/negative_candidates.tsv` | Corrected negative annotations, including protein existence and fragment status. |
-| `data/raw/negative_candidates.fasta` | Corresponding canonical negative sequences. |
-| `data/raw/negative_collection.json` | Negative collection query and provenance. |
-| `data/processed/positive.tsv` | Positive metadata. |
-| `data/processed/positive_filtered.fasta` | Retained positive sequences. |
-| `data/processed/positive_filtered_annotations.tsv` | Retained positive annotations. |
-| `data/processed/positive_excluded_annotations.tsv` | Excluded positive annotations. |
-| `data/processed/negative.tsv` | Negative metadata. |
-| `data/processed/negative_filtered.fasta` | Negative sequences. |
-| `data/processed/negative_filtered_annotations.tsv` | Detailed negative annotations. |
-| `data/processed/negative_accessions.txt` | Negative accession list. |
-| `data/audit/` | Counts, checks and added accessions from the negative correction. |
+## Dataset Statistics
 
-## Dataset counts
+### Filtering & Redundancy Reduction Counts
 
-| Dataset | Candidates | Retained | Excluded |
-| --- | ---: | ---: | ---: |
-| Positive | 2,972 | 2,956 | 16 |
-| Negative | 20,974 | 20,974 | 0 |
+| Dataset | UniProt Candidates | Retained (Part A) | Non-Redundant Reps (MMseqs2) |
+| :--- | :---: | :---: | :---: |
+| **Positive** | 2,972 | 2,956 | **1,104** |
+| **Negative** | 20,974 | 20,974 | **9,082** |
 
-| Kingdom | Positive | Negative |
-| --- | ---: | ---: |
-| Metazoa | 2,440 | 12,634 |
-| Fungi | 167 | 3,814 |
-| Plants | 312 | 4,132 |
-| Other | 37 | 394 |
-| Total | 2,956 | 20,974 |
+### Final Dataset Splits (80% Train / 20% Benchmark)
 
-## Metadata
+| Split File | Positives | Negatives | Total Entries |
+| :--- | :---: | :---: | :---: |
+| `data/splits/train.tsv` | 883 | 7,266 | **8,149** |
+| `data/splits/benchmark.tsv` | 221 | 1,816 | **2,037** |
+| **Total Non-Redundant** | **1,104** | **9,082** | **10,186** |
 
-The metadata tables are TSV files with headers.
+---
 
-| File | Columns |
-| --- | --- |
-| `positive.tsv` | `accession`, `organism`, `kingdom`, `protein_length`, `cleavage_site` |
-| `negative.tsv` | `accession`, `organism`, `kingdom`, `protein_length`, `tm_helix_first_90` |
+## Next Steps
 
-Kingdoms are assigned from taxonomic lineage: Metazoa, Fungi, Plants (Viridiplantae), or Other.
+### Task 1: Implement the von Heijne PSWM Algorithm (`src/models.py`)
 
-For negatives, `tm_helix_first_90` is `true` when a canonical helical transmembrane segment or signal anchor starts within residues 1–90. Isoform-specific coordinates and beta-stranded segments are excluded. There are 2,533 `true` values and 18,441 `false` values.
+1. **Build the PSWM Scoring Matrix**:
+   - Load positive sequences from `data/splits/train_pos.fasta` and extract the 15-aa cleavage window `[-13, +2]` using `cleavage_site` coordinates in `data/splits/train.tsv`.
+   - Calculate the Position-Specific Probability Matrix (PSPM) across the 15 positions ($15 \times 20$ amino acids). Apply a **pseudocount of +1** to every cell.
+   - Convert to a Position-Specific Weight Matrix (PSWM) using log-odds against Swiss-Prot background frequencies ($b_k$):
+     $$W_{k, j} = \log \left( \frac{M_{k, j}}{b_k} \right)$$
 
-The corrected negative TSV and FASTA have matching unique accessions and sequence lengths. There is no accession overlap with the current positive table. Existing negatives retain the same metadata and sequences.
+2. **Sequence Scanning Function**:
+   - Write a function `scan_sequence(sequence, pswm)` that takes an N-terminal sequence (first 90 residues), slides the 15-aa window across positions 1 to 76, calculates the score for each window, and returns the **maximum score** found.
 
-## Reproducing the negative files
+3. **5-Fold Cross-Validation & Threshold Tuning**:
+   - Run 5-fold cross-validation using the `cv_fold` column (0–4) in `data/splits/train.tsv`.
+   - On the training folds, construct the PSWM and evaluate on the validation fold across candidate decision thresholds ($\theta$).
+   - Determine the optimal threshold $\theta^*$ that maximizes the **Matthews Correlation Coefficient (MCC)**.
+   - Report average **Accuracy, Precision, Recall, F1-Score, and MCC** across the 5 validation folds.
 
-Python's standard library is sufficient. From the project root, run:
+---
+
+### Task 2: Feature Extraction & Encoding (`src/features.py`)
+
+1. **Extract Global Sequence Features**:
+   - **Amino Acid Composition (AAC)**: Compute a 20-dimensional frequency vector across the N-terminal region (first 30–50 residues) for each protein in `train.tsv` and `benchmark.tsv`.
+   - **Physicochemical Properties**: Extract net charge, Kyte-Doolittle hydropathy index, and polar/apolar ratios.
+
+2. **Extract Local / Window Features**:
+   - Generate one-hot encoded matrices or sliding-window features for the N-terminal region.
+
+3. **Feature Standardization**:
+   - Fit `sklearn.preprocessing.StandardScaler` **only on the training split** (`data/splits/train.tsv`) and transform both `train` and `benchmark` feature sets to prevent data leakage.
+
+---
+
+### Task 3: SVM Classifier Training & Benchmarking Evaluation
+
+1. **Model Tuning**:
+   - Train an `sklearn.svm.SVC` (testing `kernel='rbf'` and `kernel='linear'`, with `class_weight='balanced'`) on the training folds (`data/splits/train.tsv`).
+   - Tune hyperparameters ($C, \gamma$) via cross-validation.
+
+2. **Holdout Evaluation**:
+   - Evaluate both the optimized **von Heijne model** and the **SVM classifier** on the unseen 20% holdout set (`data/splits/benchmark.tsv`).
+   - Specifically measure and compare the **false-positive rate** on negative proteins containing N-terminal transmembrane helices (`tm_helix_first_90 == True`).
+
+---
+
+## 🛠️ How to Run Existing Code
 
 ```bash
-python filter_negatives.py
-```
+# 1. Regenerate non-redundant splits and CV assignments
+python src/preprocessing.py
 
-This uses the included raw files and collection record, checks them and regenerates the four processed negative files. Existing processed files are backed up under `data/archive/`.
-
-To repeat the UniProt download instead, run:
-
-```bash
-python collect_negative_candidates.py
-```
-
-This requires internet access. It downloads all search results, retrieves the corresponding canonical sequences and regenerates the processed files. Existing raw and processed negatives are backed up. Later UniProt releases may return different counts.
-
-## Next step
-
-Cluster the positive and negative sequences separately with MMseqs2, select representatives, then create the training and benchmark sets and cross-validation folds. The current counts are collection counts; they will decrease after redundancy reduction.
+# 2. Regenerate data analysis figures and cleavage site windows
+python src/visualization.py
