@@ -37,6 +37,7 @@ To regenerate the two committed cleavage logos, install [Ghostscript](https://ww
 - **von Heijne:** Count residues at the 15 cleavage-window positions with a pseudocount of 1, convert the matrix to log-odds against Swiss-Prot, then take the highest valid window score within the first 90 residues of each sequence. In each of five runs, three folds fit the matrix, the next fold selects an MCC threshold, and a separate fold measures performance. For the final run, choose one MCC cutoff from training-only out-of-fold scores and refit the matrix on all training positives before scoring the benchmark.
 - **SVM:** Use N-terminal amino acid composition, hydropathy and charge. Nested cross-validation tunes feature count and RBF parameters by MCC; the feature ranking and scaler are fitted inside the training portion of each fold. Tune on all training folds, refit on the full training set and then score the benchmark.
 - The two CV protocols have different training sizes and tuning schemes, so the **shared independent benchmark** is the direct comparison. Its metrics, confusion counts, early transmembrane helix error rates and ROC/precision–recall curves are in `results/`.
+- 
 
 ## Independent benchmark results
 
