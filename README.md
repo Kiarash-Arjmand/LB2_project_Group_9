@@ -35,8 +35,32 @@ To regenerate the two committed cleavage logos, install [Ghostscript](https://ww
 ### Evaluation
 
 - **von Heijne:** Count residues at the 15 cleavage-window positions with a pseudocount of 1, convert the matrix to log-odds against Swiss-Prot, then take the highest valid window score within the first 90 residues of each sequence. In each of five runs, three folds fit the matrix, the next fold selects an MCC threshold, and a separate fold measures performance. For the final run, choose one MCC cutoff from training-only out-of-fold scores and refit the matrix on all training positives before scoring the benchmark.
+- 
 - **SVM:** Use N-terminal amino acid composition, hydropathy and charge. Nested cross-validation tunes feature count and RBF parameters by MCC; the feature ranking and scaler are fitted inside the training portion of each fold. Tune on all training folds, refit on the full training set and then score the benchmark.
 - The two CV protocols have different training sizes and tuning schemes, so the **shared independent benchmark** is the direct comparison. Its metrics, confusion counts, early transmembrane helix error rates and ROC/precision–recall curves are in `results/`.
+- **SVM detector:** The SVM predicts whether a eukaryotic protein carries a secretory signal peptide (1 = SP, 0 = no SP) from its N-terminal sequence only. The cleavage site is never used as a feature: it is used only to compute the window length n from the training positives.
+**Features**
+N-terminal composition: the fraction of each of the 20 amino acids in the first n residues, where n is the median signal-peptide length of the current training set (22 on the full training set; recomputed in every fold).
+Hydropathy: Kyte–Doolittle profile (window 5) over the first 40 residues: maximum, mean and position of the peak.
+Charge: net charge (K, R positive; D, E negative) of residues 1–10.
+**Model and protocol**
+Features → Random-Forest importance ranking (500 trees, fixed seed) → top-k features → StandardScaler → RBF SVC(class_weight="balanced").
+Nested cross-validation on the five predefined training folds. The outer loop evaluates (each fold is the test set once); the inner 4-fold loop chooses k, C and γ by mean MCC. The test fold is never used for a choice.
+n, the RF ranking, the scaler and the SVM are fitted on training data only, separately in every fold.
+Final model: 5-fold CV over the grid on the whole training set, refit on the whole training set, then scored once on the independent benchmark.
+Results are reported as mean ± standard error over the five outer folds (SE = σ/√5).
+**Results**
+Nested cross-validation (mean ± SE over 5 outer folds): see results/ for the per-fold tables and chosen parameters. Benchmark metrics are in the table under Independent benchmark results.
+**Error analysis**
+False positives: an N-terminal transmembrane helix is the main confounder. Its hydrophobic stretch resembles the h-region of a signal peptide, so the false-positive rate is about ten times higher for proteins with a TM helix starting within the first 90 residues (10.3%) than for those without (1.2%).
+False negatives: compared with true positives, the missed signal peptides tend to have less alanine and leucine in the N-terminus. With only a few dozen cases this is a tendency, not a result.
+Taxonomy: the benchmark contains few positives outside Metazoa (roughly 16 plant, 17 fungal and 5 "other"), so per-kingdom error rates are very uncertain.
+**Limitations**
+The benchmark has 221 positives, so its metrics carry a wide uncertainty (a few hundredths of MCC). Differences smaller than that should not be over-interpreted.
+After clustering, Fungi are about 28% of the negatives but only about 9% of the positives (Metazoa: 53% vs 79%). A composition-based model may partly learn taxonomic signal; the per-kingdom analysis is there to check this.
+Some negatives are multi-localised proteins that also carry a secretory annotation but no signal peptide.
+A few sequences contain non-standard residues (U, B, X); they are ignored when computing composition.
+The Random-Forest selection kept all features in every fold, so in practice it did not reduce the feature set.
 
 ## Independent benchmark results
 
