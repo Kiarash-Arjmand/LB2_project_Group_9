@@ -306,26 +306,19 @@ python -m src.benchmark            # benchmark comparison and error analysis
 
 ## Authors and contributions
 
-| Member | GitHub | Main contributions |
-|---|---|---|
-| [name] | [@handle] | Data collection and annotation filtering |
+| Member |  Main contributions |
+|---|---|
+| Mir Ako Ali |Data collection and annotation filtering |
 | [name] | [@handle] | Redundancy reduction, splits and cross-validation folds |
 | [name] | [@handle] | Dataset analysis and figures |
-| [name] | [@handle] | von Heijne method and its cross-validation |
-| [name] | [@handle] | SVM: features, nested cross-validation, final model |
+| Pandiselvam Naveen | von Heijne method and its cross-validation |
+| Samarth Patrike | SVM: features, nested cross-validation, final model |
 | [name] | [@handle] | Benchmark comparison, error analysis and report |
-
-Every member should be able to explain every step of the pipeline in the oral exam.
 
 ## References
 
 - von Heijne G. (1986) A new method for predicting signal sequence cleavage sites. *Nucleic Acids Res* 14:4683–4690.
-- Kyte J, Doolittle RF (1982) A simple method for displaying the hydropathic character of a protein. *J Mol Biol* 157:105–132.
 - Steinegger M, Söding J (2017) MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets. *Nat Biotechnol* 35:1026–1028.
-- Cortes C, Vapnik V (1995) Support-vector networks. *Machine Learning* 20:273–297.
-- Breiman L (2001) Random forests. *Machine Learning* 45:5–32.
-- Matthews BW (1975) Comparison of the predicted and observed secondary structure of T4 phage lysozyme. *Biochim Biophys Acta* 405:442–451.
-- Pedregosa F et al. (2011) Scikit-learn: machine learning in Python. *J Mach Learn Res* 12:2825–2830.
-- Crooks GE et al. (2004) WebLogo: a sequence logo generator. *Genome Res* 14:1188–1190.
 - Teufel F et al. (2022) SignalP 6.0 predicts all five types of signal peptides using protein language models. *Nat Biotechnol* 40:1023–1025.
 - The UniProt Consortium. UniProt: the Universal Protein Knowledgebase. *Nucleic Acids Res*.
+- MMseqs2: https://github.com/soedinglab/MMseqs2
