@@ -39,9 +39,9 @@ TRAIN_TSV = f"{DATA_DIR}/train.tsv"
 BENCH_TSV = f"{DATA_DIR}/benchmark.tsv"
 ID_COL, LABEL_COL, CLEAVAGE_COL, FOLD_COL = "accession", "label", "cleavage_site", "cv_fold"
 TM_COL, KINGDOM_COL = "tm_helix_first_90", "kingdom"
-FIG_DIR = "figures"
-MODEL_FILE = "svm_final_model.pkl.gz"
-N_JOBS = -1               # parallel SVM fits (-1 = all cores)
+FIG_DIR = "results/svm"
+MODEL_FILE = f"{FIG_DIR}/svm_final_model.pkl.gz"
+N_JOBS = int(os.environ.get("LB2_JOBS", "4"))   # parallel SVM fits
 RUN_NESTED_CV = True      # section 7 takes a few minutes: set False to skip it
 SHOW_PLOTS = False        # True: also open the figures on screen
 os.makedirs(FIG_DIR, exist_ok=True)
@@ -304,7 +304,7 @@ print("and the number of features: 'scale' (= 1/(n_features*var)) is a sensible 
 # k, C, gamma are chosen by cross-validation on the TRAINING folds only (metric: MCC).
 def rf_ranking(X, y):
     """feature indices sorted by RF importance (parameters fixed). One ranking serves every k."""
-    rf = RandomForestClassifier(n_estimators=500, random_state=0, n_jobs=-1).fit(X, y)
+    rf = RandomForestClassifier(n_estimators=500, random_state=0, n_jobs=N_JOBS).fit(X, y)
     return np.argsort(rf.feature_importances_)[::-1]
 
 def fit_model(df, k, C, gamma):

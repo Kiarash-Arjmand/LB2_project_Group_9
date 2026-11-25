@@ -18,3 +18,7 @@ venv/
 env/
 tmp_pos/
 tmp_neg/
+
+# Runtime outputs not needed in source control
+results/svm/*.pkl.gz
+data/archive/
