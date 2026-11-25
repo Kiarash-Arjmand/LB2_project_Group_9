@@ -1,115 +1,50 @@
 # Laboratory of Bioinformatics II — Group 9
 
-We are comparing two methods for predicting secretory signal peptides in eukaryotic proteins: the **von Heijne method (1986)** and a **Support Vector Machine (SVM)** classifier.
+We compare a von Heijne position-specific weight matrix (PSWM) with a support vector machine (SVM) for detecting secretory signal peptides in reviewed eukaryotic UniProtKB proteins.
 
----
+| Stage | Positive | Negative | Total |
+|---|---:|---:|---:|
+| Downloaded candidates | 2,972 | 20,974 | 23,946 |
+| After annotation selection and preparation | 2,956 | 20,974 | 23,930 |
+| MMseqs2 representatives | 1,104 | 9,082 | 10,186 |
+| Training (five stratified folds) | 883 | 7,265 | 8,148 |
+| Independent benchmark | 221 | 1,817 | 2,038 |
 
-## Current Progress
+## Reproduce the analysis
 
-Data collection, annotation filtering, sequence redundancy reduction (using MMseqs2), train/benchmark dataset splits, and statistical dataset analyses are **100% complete**.
-
-1. **Part A (Data Collection)**: Filtered reviewed, non-fragment eukaryotic proteins with protein-level evidence from UniProtKB.
-2. **Part B (Redundancy Reduction & Splits)**:
-   - Clustered positive and negative FASTA sequences using **MMseqs2** (`--cluster-mode 1`, 30% sequence identity, 40% coverage).
-   - Reduced candidate counts to **1,104 non-redundant positives** and **9,082 non-redundant negatives**.
-   - Generated an 80% / 20% stratified train/benchmark split with **5-fold cross-validation fold assignments** (`cv_fold` 0–4).
-3. **Part C (Data Analysis)**: Generated sequence length distributions, kingdom counts, and extracted 15-aa cleavage site windows `[-13, +2]` for WebLogo sequence logo generation (`figures/cleavage_site_logo.png`).
-
----
-
-## Project File Structure
-
-Paths are relative to the repository root.
-
-| Path | Description |
-| :--- | :--- |
-| `filter_positives.py` | Positive candidate annotation filtering script. |
-| `collect_negative_candidates.py` | Script to retrieve course-specific negative collection. |
-| `filter_negatives.py` | Negative candidate annotation filtering script. |
-| `src/preprocessing.py` | Parses MMseqs2 outputs, builds non-redundant TSVs, and generates 80/20 splits with 5-fold CV assignments. |
-| `src/visualization.py` | Generates summary figures and extracts 15-aa cleavage windows `[-13, +2]` for WebLogo. |
-| `src/features.py` | *(Pending)* Feature extraction routines for SVM (AAC, physicochemical features, sliding windows). |
-| `src/models.py` | *(Pending)* Implementation of von Heijne PSWM scoring and SVM model wrappers. |
-| `data/raw/` | Original candidate annotations and FASTA downloads from UniProtKB. |
-| `data/processed/` | Filtered entries, annotation logs, and MMseqs2 clustering outputs (`pos_clustered_*`, `neg_clustered_*`). |
-| `data/splits/train.tsv` | Non-redundant training metadata (80%, 8,149 proteins) with `cv_fold` column (values 0–4). |
-| `data/splits/benchmark.tsv` | Non-redundant independent benchmarking metadata (20%, 2,037 proteins). |
-| `data/splits/*.fasta` | Corresponding FASTA files for positive/negative training and benchmarking splits. |
-| `figures/` | Saved statistical plots (`*_sp_length_distribution.png`, `*_protein_length_comparison.png`, `*_kingdom_distribution.png`) and `cleavage_site_logo.png`. |
-
----
-
-## Dataset Statistics
-
-### Filtering & Redundancy Reduction Counts
-
-| Dataset | UniProt Candidates | Retained (Part A) | Non-Redundant Reps (MMseqs2) |
-| :--- | :---: | :---: | :---: |
-| **Positive** | 2,972 | 2,956 | **1,104** |
-| **Negative** | 20,974 | 20,974 | **9,082** |
-
-### Final Dataset Splits (80% Train / 20% Benchmark)
-
-| Split File | Positives | Negatives | Total Entries |
-| :--- | :---: | :---: | :---: |
-| `data/splits/train.tsv` | 883 | 7,266 | **8,149** |
-| `data/splits/benchmark.tsv` | 221 | 1,816 | **2,037** |
-| **Total Non-Redundant** | **1,104** | **9,082** | **10,186** |
-
----
-
-## Next Steps
-
-### Task 1: Implement the von Heijne PSWM Algorithm (`src/models.py`)
-
-1. **Build the PSWM Scoring Matrix**:
-   - Load positive sequences from `data/splits/train_pos.fasta` and extract the 15-aa cleavage window `[-13, +2]` using `cleavage_site` coordinates in `data/splits/train.tsv`.
-   - Calculate the Position-Specific Probability Matrix (PSPM) across the 15 positions ($15 \times 20$ amino acids). Apply a **pseudocount of +1** to every cell.
-   - Convert to a Position-Specific Weight Matrix (PSWM) using log-odds against Swiss-Prot background frequencies ($b_k$):
-     $$W_{k, j} = \log \left( \frac{M_{k, j}}{b_k} \right)$$
-
-2. **Sequence Scanning Function**:
-   - Write a function `scan_sequence(sequence, pswm)` that takes an N-terminal sequence (first 90 residues), slides the 15-aa window across positions 1 to 76, calculates the score for each window, and returns the **maximum score** found.
-
-3. **5-Fold Cross-Validation & Threshold Tuning**:
-   - Run 5-fold cross-validation using the `cv_fold` column (0–4) in `data/splits/train.tsv`.
-   - On the training folds, construct the PSWM and evaluate on the validation fold across candidate decision thresholds ($\theta$).
-   - Determine the optimal threshold $\theta^*$ that maximizes the **Matthews Correlation Coefficient (MCC)**.
-   - Report average **Accuracy, Precision, Recall, F1-Score, and MCC** across the 5 validation folds.
-
----
-
-### Task 2: Feature Extraction & Encoding (`src/features.py`)
-
-1. **Extract Global Sequence Features**:
-   - **Amino Acid Composition (AAC)**: Compute a 20-dimensional frequency vector across the N-terminal region (first 30–50 residues) for each protein in `train.tsv` and `benchmark.tsv`.
-   - **Physicochemical Properties**: Extract net charge, Kyte-Doolittle hydropathy index, and polar/apolar ratios.
-
-2. **Extract Local / Window Features**:
-   - Generate one-hot encoded matrices or sliding-window features for the N-terminal region.
-
-3. **Feature Standardization**:
-   - Fit `sklearn.preprocessing.StandardScaler` **only on the training split** (`data/splits/train.tsv`) and transform both `train` and `benchmark` feature sets to prevent data leakage.
-
----
-
-### Task 3: SVM Classifier Training & Benchmarking Evaluation
-
-1. **Model Tuning**:
-   - Train an `sklearn.svm.SVC` (testing `kernel='rbf'` and `kernel='linear'`, with `class_weight='balanced'`) on the training folds (`data/splits/train.tsv`).
-   - Tune hyperparameters ($C, \gamma$) via cross-validation.
-
-2. **Holdout Evaluation**:
-   - Evaluate both the optimized **von Heijne model** and the **SVM classifier** on the unseen 20% holdout set (`data/splits/benchmark.tsv`).
-   - Specifically measure and compare the **false-positive rate** on negative proteins containing N-terminal transmembrane helices (`tm_helix_first_90 == True`).
-
----
-
-## 🛠️ How to Run Existing Code
+Run the commands from the repository root. The data, cluster outputs and splits are checked in. Python 3.12 was used for this run.
 
 ```bash
-# 1. Regenerate non-redundant splits and CV assignments
-python src/preprocessing.py
+python -m pip install -r requirements.txt
+python -m src.visualization
+python -m src.models
+python -m src.svm
+python -m src.benchmark
+```
 
-# 2. Regenerate data analysis figures and cleavage site windows
-python src/visualization.py
+The SVM run includes nested cross-validation, so it takes longer than the other steps. It uses four workers by default; set the `LB2_JOBS` environment variable to reduce that number if needed. The exploratory `src/features.py` module is separate; `src/svm.py` contains the features used for the reported results.
+
+To regenerate the two committed cleavage logos, install [Ghostscript](https://www.ghostscript.com/) and make sure it is on your PATH. Then run `python -m pip install weblogo==3.7.12 setuptools==80.9.0` followed by `python -m src.visualization --logos`.
+
+### Dataset preparation
+
+- Raw inputs are in `data/raw/`. Run `python filter_positives.py` and `python filter_negatives.py` to rebuild the processed TSVs and FASTAs from those inputs. The negatives were selected with an experimental compartment restriction in the UniProt search, so processing the export retains the same 20,974 entries. The query, release and checksums are in `data/raw/negative_collection.json`. `collect_negative_candidates.py` queries the live database again and can return different data in a later release; the committed inputs are used here.
+- Clustered separately by class with MMseqs2 using `--min-seq-id 0.3 -c 0.4 --cov-mode 0 --cluster-mode 1`. The cluster memberships and representatives are in `data/processed/`. Run `python -m src.preprocessing` to regenerate the 80/20 split and five training folds (seed 42) from those representatives.
+- `src.visualization` generates the length distributions, kingdom and species plots, and a comparison of amino acid composition between the annotated signal peptides and [Swiss-Prot release 2026_04, section 6.1](https://web.expasy.org/docs/relnotes/relstat.html). The species plots show the 12 most frequent species plus one pooled category. The cleavage logo inputs preserve 13 residues before the cut and two after it.
+
+### Evaluation
+
+- **von Heijne:** Count residues at the 15 cleavage-window positions with a pseudocount of 1, convert the matrix to log-odds against Swiss-Prot, then take the highest valid window score within the first 90 residues of each sequence. In each of five runs, three folds fit the matrix, the next fold selects an MCC threshold, and a separate fold measures performance. For the final run, choose one MCC cutoff from training-only out-of-fold scores and refit the matrix on all training positives before scoring the benchmark.
+- **SVM:** Use N-terminal amino acid composition, hydropathy and charge. Nested cross-validation tunes feature count and RBF parameters by MCC; the feature ranking and scaler are fitted inside the training portion of each fold. Tune on all training folds, refit on the full training set and then score the benchmark.
+- The two CV protocols have different training sizes and tuning schemes, so the **shared independent benchmark** is the direct comparison. Its metrics, confusion counts, early transmembrane helix error rates and ROC/precision–recall curves are in `results/`.
+
+## Independent benchmark results
+
+| Method | MCC | Precision | Recall | F1 | Accuracy | ROC AUC |
+|---|---:|---:|---:|---:|---:|---:|
+| von Heijne | 0.657 | 0.708 | 0.679 | 0.693 | 0.935 | 0.952 |
+| SVM | 0.853 | 0.840 | 0.900 | 0.869 | 0.971 | 0.981 |
+
+The von Heijne model called 28 of 185 negatives with a transmembrane helix starting within the first 90 residues positive (15.1%), compared with 34 of 1,632 negatives without one (2.1%). The SVM rates were 19 of 185 (10.3%) and 19 of 1,632 (1.2%), respectively. Both methods were less specific on the early transmembrane subset; the SVM made fewer false positives and fewer false negatives overall on this benchmark.
+
+See [benchmark metrics and confusion counts](results/benchmark_metrics.tsv), [subgroup errors](results/benchmark_tm_false_positives.tsv) and [ROC and precision–recall curves](results/benchmark_curves.png).

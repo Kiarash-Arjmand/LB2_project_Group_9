@@ -1,0 +1,5 @@
+method	early_TM_helix	negatives	false_positives	false_positive_rate
+von Heijne	true	185	28	0.151351
+von Heijne	false	1632	34	0.020833
+SVM	true	185	19	0.102703
+SVM	false	1632	19	0.011642
