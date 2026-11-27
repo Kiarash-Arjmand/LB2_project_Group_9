@@ -1,0 +1,9 @@
+method	kingdom	positives	false_negatives	false_negative_rate	negatives	false_positives	false_positive_rate
+von Heijne	Fungi	17	5	0.294118	500	4	0.008
+von Heijne	Metazoa	183	63	0.344262	963	40	0.041537
+von Heijne	Other	5	0	0.0	35	2	0.057143
+von Heijne	Plants	16	3	0.1875	319	16	0.050157
+SVM	Fungi	17	2	0.117647	500	5	0.01
+SVM	Metazoa	183	19	0.103825	963	23	0.023884
+SVM	Other	5	1	0.2	35	2	0.057143
+SVM	Plants	16	0	0.0	319	8	0.025078

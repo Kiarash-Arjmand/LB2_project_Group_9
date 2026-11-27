@@ -20,7 +20,7 @@ predictors on the same independent benchmark: the classical **von Heijne positio
 | At a glance | von Heijne | SVM |
 |---|---|---|
 | Benchmark MCC | 0.657 | **0.853** |
-| Benchmark ROC AUC | 0.952 | **0.981** |
+| Benchmark ROC AUC | 0.953 | **0.981** |
 | False-positive rate on negatives with an N-terminal TM helix | 15.1% | **10.3%** |
 
 The SVM is clearly better on every metric, but both methods are least reliable on proteins whose N-terminal
@@ -77,7 +77,6 @@ is used only to define the positives; predicting it is a separate task not addre
 │   ├── svm.py                       # SVM features, nested cross-validation, final model
 │   ├── benchmark.py                 # benchmark comparison and error analysis
 │   └── features.py                  # exploratory features (separate from the reported SVM)
-├── notebooks/                       # exploratory notebooks
 ├── figures/                         # generated plots and cleavage-site logos
 └── results/                         # metrics, confusion counts, subgroup errors, ROC / PR curves
 ```
@@ -111,7 +110,7 @@ once, for the final models only.
 ## Methods and results
 
 This section documents everything that was done, from the raw UniProt download to the final comparison of the two
-predictors. Lines marked `TODO` must be checked or filled from the files in `results/` before the section is merged.
+predictors.
 
 ### 1. Pipeline overview
 
@@ -144,7 +143,7 @@ cleavage-site context, and an **RBF-kernel support vector machine** that learns 
 | 6 | von Heijne method | Weight matrix, threshold selection and cross-validation (section 4). | `src/models.py` | `results/` |
 | 7 | SVM | Feature extraction, Random-Forest feature selection, nested cross-validation (section 5). | `src/svm.py` | `results/` |
 | 8 | Benchmark comparison | Both final models scored once on the independent benchmark; ROC and precision-recall curves. | `src/benchmark.py` | `results/` |
-| 9 | Error analysis | False positives against N-terminal TM helices, errors per kingdom (section 7). | `src/benchmark.py` | `results/` |
+| 9 | Error analysis | False positives against N-terminal TM helices, false-negative composition, and errors per kingdom (section 7). | `src/benchmark.py`, `src/svm.py` | `results/` |
 
 ### 3. Dataset
 
@@ -183,10 +182,14 @@ positive when this score reaches a threshold.
 
 **Choosing the threshold (never on the test data).** Five runs of cross-validation: in each run three folds fit the
 matrix, the next fold selects the MCC-optimal threshold, and a separate fold measures performance. For the final model,
-one cutoff is chosen from training-only out-of-fold scores, the matrix is refitted on all training positives, and the
-benchmark is scored once.
+one cutoff (6.49) is chosen from training-only out-of-fold scores, the matrix is refitted on all training positives, and
+the benchmark is scored once.
 
-**Cross-validated performance (mean ± standard error over five runs):** `TODO: insert from results/`
+**Cross-validated performance (mean ± standard error over five runs, `results/von_heijne_cv.csv`):**
+
+| MCC | Precision | Recall | F1 | Accuracy |
+|---|---|---|---|---|
+| 0.665 ± 0.016 | 0.694 ± 0.040 | 0.717 ± 0.033 | 0.699 ± 0.013 | 0.933 ± 0.005 |
 
 ### 5. Support vector machine
 
@@ -199,8 +202,6 @@ benchmark is scored once.
 - **Hydropathy:** Kyte-Doolittle profile (window 5) over the first 40 residues: maximum, mean and position of the peak.
 - **Charge:** net charge of residues 1 to 10 (K, R positive; D, E negative).
 
-`TODO: confirm the feature list and window sizes against src/svm.py`
-
 **Model.** Features, then Random-Forest importance ranking (500 trees, fixed seed), then the top-*k* features,
 then `StandardScaler`, then `SVC(kernel="rbf", class_weight="balanced")`.
 
@@ -209,39 +210,42 @@ then `StandardScaler`, then `SVC(kernel="rbf", class_weight="balanced")`.
 - *Inner loop (model selection):* 4-fold cross-validation on the remaining folds chooses *k*, *C* and gamma by mean MCC.
 - *n*, the feature ranking, the scaler and the SVM are all fitted on training data only, separately in every fold, so the
   test fold never influences a choice.
-- *Final model:* 5-fold cross-validation over the grid on the whole training set, refit on the whole training set, then
-  one evaluation on the benchmark.
+- *Final model:* 5-fold cross-validation over the grid on the whole training set (mean MCC = 0.809, selecting *k* = 24,
+  *C* = 1, gamma = 0.0833), refit on the whole training set, then one evaluation on the benchmark.
 
-**Nested cross-validation (mean ± standard error over five outer folds):**
+**Nested cross-validation (mean ± standard error over five outer folds, `results/svm/svm_nested_cv_per_fold.csv`):**
 
 | MCC | Precision | Recall | F1 | Accuracy |
 |---|---|---|---|---|
 | 0.806 ± 0.003 | 0.771 ± 0.005 | 0.890 ± 0.006 | 0.826 ± 0.003 | 0.959 ± 0.001 |
 
-`TODO: verify these figures against the per-fold table in results/`
-
 ### 6. Independent benchmark results
 
-| Method | MCC | Precision | Recall | F1 | Accuracy | ROC AUC |
-|---|---|---|---|---|---|---|
-| von Heijne | 0.657 | 0.708 | 0.679 | 0.693 | 0.935 | 0.952 |
-| SVM | 0.853 | 0.840 | 0.900 | 0.869 | 0.971 | 0.981 |
+Full metrics and curves are saved in [`results/benchmark_metrics.tsv`](results/benchmark_metrics.tsv) and
+[`results/benchmark_curves.png`](results/benchmark_curves.png):
 
-Confusion counts on the 2,038 benchmark proteins (consistent with the rates above; `TODO: check against results/`):
+| Method | MCC | Precision | Recall | F1 | Accuracy | ROC AUC | PR AUC |
+|---|---|---|---|---|---|---|---|
+| von Heijne | 0.657 | 0.708 | 0.679 | 0.693 | 0.935 | 0.953 | 0.780 |
+| SVM | **0.853** | **0.840** | **0.900** | **0.869** | **0.971** | **0.981** | **0.914** |
+
+Confusion counts on the 2,038 benchmark proteins:
 
 | Method | TP | FN | FP | TN |
 |---|---|---|---|---|
 | von Heijne | 150 | 71 | 62 | 1,755 |
 | SVM | 199 | 22 | 38 | 1,779 |
 
+![ROC and precision-recall curves on the independent benchmark](results/benchmark_curves.png)
+
 The two cross-validation protocols differ in training size and tuning scheme, so the shared independent benchmark is the
-direct comparison. The SVM scores clearly higher on every metric. A gap of this size (MCC 0.66 against 0.85) is large
+direct comparison. The SVM scores clearly higher on every metric. A gap of this size (MCC 0.657 against 0.853) is large
 compared with the sampling noise of 221 positives, but no paired significance test has been run yet.
 
 ### 7. Error analysis
 
 **False positives and N-terminal transmembrane helices.** The hydrophobic stretch of an N-terminal TM helix resembles
-the h-region of a signal peptide, so both methods are expected to confuse them.
+the h-region of a signal peptide, so both methods are expected to confuse them ([`results/benchmark_tm_false_positives.tsv`](results/benchmark_tm_false_positives.tsv)).
 
 | Negatives | von Heijne false positives | SVM false positives |
 |---|---|---|
@@ -251,12 +255,14 @@ the h-region of a signal peptide, so both methods are expected to confuse them.
 Both methods are about seven to ten times less specific on the TM subset, and the SVM makes fewer false positives in
 both groups.
 
-**False negatives.** For the SVM, the missed signal peptides tend to have less alanine and leucine in the N-terminus than
-the correctly detected ones. With only a few dozen cases this is a tendency, not a result.
-`TODO: add the von Heijne false-negative cleavage-site logo (expected vs missed) from figures/`
+**False negatives.** For the SVM, the missed signal peptides tend to have less leucine (13.7% vs 22.3% in true positives)
+and alanine (9.9% vs 13.6%) and more polar/charged residues (glutamine 4.8% vs 2.0%, arginine 5.6% vs 2.8%) in the
+N-terminus than the correctly detected ones ([`results/svm/svm_fn_composition.csv`](results/svm/svm_fn_composition.csv)).
+With only 22 false negatives this is a tendency rather than a definitive subgroup effect.
 
 **Taxonomy.** The benchmark contains few positives outside Metazoa (roughly 16 plant, 17 fungal and 5 other), so
-per-kingdom error rates are very uncertain. See the subgroup tables in `results/`.
+per-kingdom error rates are very uncertain. Side-by-side per-kingdom false-positive and false-negative rates for both
+models are saved in [`results/benchmark_kingdom_errors.tsv`](results/benchmark_kingdom_errors.tsv).
 
 ### 8. Limitations
 
@@ -266,15 +272,15 @@ per-kingdom error rates are very uncertain. See the subgroup tables in `results/
   A composition-based model may partly learn taxonomic signal; the per-kingdom analysis is there to check this.
 - Some negatives are multi-localized proteins that also carry a secretory annotation but no signal peptide.
 - A few sequences contain non-standard residues (U, B, X); they are ignored when computing composition.
-- The Random-Forest selection kept all features in every fold in our runs, so it did not reduce the feature set.
+- The Random-Forest selection kept all 24 features in every fold in our runs, so it did not reduce the feature set.
 - Only the Sec/SPI-like, cleaved signal peptides with experimental evidence are modeled; leaderless secretion and
   uncleaved signal anchors are outside the task.
 
 ### 9. Next steps
 - Paired significance test (McNemar) and bootstrap confidence intervals for the MCC difference.
 - Extended SVM feature set separating signal peptides from TM helices (longer hydropathy window, hydrophobic run length,
-  n-region charges, c-region polarity); on the training set it raised the cross-validated MCC from 0.817 to 0.861,
-  to be confirmed with the repository's own pipeline before reporting.
+  n-region charges, c-region polarity); on the training set it raised the non-nested 5-fold CV MCC from 0.817 to 0.861,
+  to be confirmed with the repository's nested CV pipeline before reporting.
 - Ablations: linear against RBF kernel, with and without class weighting.
 
 ## How to reproduce
@@ -303,7 +309,6 @@ python -m src.benchmark            # benchmark comparison and error analysis
 - `collect_negative_candidates.py` queries the live UniProt database and can return different data in a later release;
   the committed inputs in `data/raw/` are the ones used here.
 
-
 ## Authors and contributions
 
 | Member | GitHub | Main contributions |
@@ -314,8 +319,6 @@ python -m src.benchmark            # benchmark comparison and error analysis
 | [name] | [@handle] | von Heijne method and its cross-validation |
 | [name] | [@handle] | SVM: features, nested cross-validation, final model |
 | [name] | [@handle] | Benchmark comparison, error analysis and report |
-
-Every member should be able to explain every step of the pipeline in the oral exam.
 
 ## References
 
